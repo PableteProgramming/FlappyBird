@@ -640,11 +640,11 @@ SFML/Config.hpp
 
 ../SFML/include/SFML/Window/WindowStyle.hpp
 
-../app/include/main.h
+../app/include/Bird.h
 SFML/Graphics.hpp
 -
 
-P:/C++/FlappyBird/app/src/main.cpp
-main.h
+C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/app/src/Bird.cpp
+Bird.h
 -
 

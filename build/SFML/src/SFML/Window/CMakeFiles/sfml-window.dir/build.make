@@ -61,10 +61,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = P:\C++\FlappyBird
+CMAKE_SOURCE_DIR = C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = P:\C++\FlappyBird\build
+CMAKE_BINARY_DIR = C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build
 
 # Include any dependencies generated for this target.
 include SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/depend.make
@@ -78,282 +78,282 @@ include SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Context.cpp.obj: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Context.cpp.obj: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/includes_CXX.rsp
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Context.cpp.obj: ../SFML/src/SFML/Window/Context.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=P:\C++\FlappyBird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Context.cpp.obj"
-	cd /d P:\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\sfml-window.dir\Context.cpp.obj -c P:\C++\FlappyBird\SFML\src\SFML\Window\Context.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Context.cpp.obj"
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\sfml-window.dir\Context.cpp.obj -c C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\SFML\src\SFML\Window\Context.cpp
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Context.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-window.dir/Context.cpp.i"
-	cd /d P:\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E P:\C++\FlappyBird\SFML\src\SFML\Window\Context.cpp > CMakeFiles\sfml-window.dir\Context.cpp.i
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\SFML\src\SFML\Window\Context.cpp > CMakeFiles\sfml-window.dir\Context.cpp.i
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Context.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-window.dir/Context.cpp.s"
-	cd /d P:\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S P:\C++\FlappyBird\SFML\src\SFML\Window\Context.cpp -o CMakeFiles\sfml-window.dir\Context.cpp.s
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\SFML\src\SFML\Window\Context.cpp -o CMakeFiles\sfml-window.dir\Context.cpp.s
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlContext.cpp.obj: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlContext.cpp.obj: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/includes_CXX.rsp
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlContext.cpp.obj: ../SFML/src/SFML/Window/GlContext.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=P:\C++\FlappyBird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlContext.cpp.obj"
-	cd /d P:\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\sfml-window.dir\GlContext.cpp.obj -c P:\C++\FlappyBird\SFML\src\SFML\Window\GlContext.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlContext.cpp.obj"
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\sfml-window.dir\GlContext.cpp.obj -c C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\SFML\src\SFML\Window\GlContext.cpp
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlContext.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-window.dir/GlContext.cpp.i"
-	cd /d P:\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E P:\C++\FlappyBird\SFML\src\SFML\Window\GlContext.cpp > CMakeFiles\sfml-window.dir\GlContext.cpp.i
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\SFML\src\SFML\Window\GlContext.cpp > CMakeFiles\sfml-window.dir\GlContext.cpp.i
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlContext.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-window.dir/GlContext.cpp.s"
-	cd /d P:\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S P:\C++\FlappyBird\SFML\src\SFML\Window\GlContext.cpp -o CMakeFiles\sfml-window.dir\GlContext.cpp.s
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\SFML\src\SFML\Window\GlContext.cpp -o CMakeFiles\sfml-window.dir\GlContext.cpp.s
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlResource.cpp.obj: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlResource.cpp.obj: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/includes_CXX.rsp
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlResource.cpp.obj: ../SFML/src/SFML/Window/GlResource.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=P:\C++\FlappyBird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlResource.cpp.obj"
-	cd /d P:\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\sfml-window.dir\GlResource.cpp.obj -c P:\C++\FlappyBird\SFML\src\SFML\Window\GlResource.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlResource.cpp.obj"
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\sfml-window.dir\GlResource.cpp.obj -c C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\SFML\src\SFML\Window\GlResource.cpp
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlResource.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-window.dir/GlResource.cpp.i"
-	cd /d P:\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E P:\C++\FlappyBird\SFML\src\SFML\Window\GlResource.cpp > CMakeFiles\sfml-window.dir\GlResource.cpp.i
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\SFML\src\SFML\Window\GlResource.cpp > CMakeFiles\sfml-window.dir\GlResource.cpp.i
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlResource.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-window.dir/GlResource.cpp.s"
-	cd /d P:\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S P:\C++\FlappyBird\SFML\src\SFML\Window\GlResource.cpp -o CMakeFiles\sfml-window.dir\GlResource.cpp.s
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\SFML\src\SFML\Window\GlResource.cpp -o CMakeFiles\sfml-window.dir\GlResource.cpp.s
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Joystick.cpp.obj: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Joystick.cpp.obj: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/includes_CXX.rsp
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Joystick.cpp.obj: ../SFML/src/SFML/Window/Joystick.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=P:\C++\FlappyBird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Joystick.cpp.obj"
-	cd /d P:\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\sfml-window.dir\Joystick.cpp.obj -c P:\C++\FlappyBird\SFML\src\SFML\Window\Joystick.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Joystick.cpp.obj"
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\sfml-window.dir\Joystick.cpp.obj -c C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\SFML\src\SFML\Window\Joystick.cpp
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Joystick.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-window.dir/Joystick.cpp.i"
-	cd /d P:\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E P:\C++\FlappyBird\SFML\src\SFML\Window\Joystick.cpp > CMakeFiles\sfml-window.dir\Joystick.cpp.i
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\SFML\src\SFML\Window\Joystick.cpp > CMakeFiles\sfml-window.dir\Joystick.cpp.i
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Joystick.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-window.dir/Joystick.cpp.s"
-	cd /d P:\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S P:\C++\FlappyBird\SFML\src\SFML\Window\Joystick.cpp -o CMakeFiles\sfml-window.dir\Joystick.cpp.s
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\SFML\src\SFML\Window\Joystick.cpp -o CMakeFiles\sfml-window.dir\Joystick.cpp.s
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/JoystickManager.cpp.obj: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/JoystickManager.cpp.obj: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/includes_CXX.rsp
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/JoystickManager.cpp.obj: ../SFML/src/SFML/Window/JoystickManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=P:\C++\FlappyBird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/JoystickManager.cpp.obj"
-	cd /d P:\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\sfml-window.dir\JoystickManager.cpp.obj -c P:\C++\FlappyBird\SFML\src\SFML\Window\JoystickManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/JoystickManager.cpp.obj"
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\sfml-window.dir\JoystickManager.cpp.obj -c C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\SFML\src\SFML\Window\JoystickManager.cpp
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/JoystickManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-window.dir/JoystickManager.cpp.i"
-	cd /d P:\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E P:\C++\FlappyBird\SFML\src\SFML\Window\JoystickManager.cpp > CMakeFiles\sfml-window.dir\JoystickManager.cpp.i
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\SFML\src\SFML\Window\JoystickManager.cpp > CMakeFiles\sfml-window.dir\JoystickManager.cpp.i
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/JoystickManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-window.dir/JoystickManager.cpp.s"
-	cd /d P:\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S P:\C++\FlappyBird\SFML\src\SFML\Window\JoystickManager.cpp -o CMakeFiles\sfml-window.dir\JoystickManager.cpp.s
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\SFML\src\SFML\Window\JoystickManager.cpp -o CMakeFiles\sfml-window.dir\JoystickManager.cpp.s
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Keyboard.cpp.obj: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Keyboard.cpp.obj: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/includes_CXX.rsp
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Keyboard.cpp.obj: ../SFML/src/SFML/Window/Keyboard.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=P:\C++\FlappyBird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Keyboard.cpp.obj"
-	cd /d P:\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\sfml-window.dir\Keyboard.cpp.obj -c P:\C++\FlappyBird\SFML\src\SFML\Window\Keyboard.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Keyboard.cpp.obj"
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\sfml-window.dir\Keyboard.cpp.obj -c C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\SFML\src\SFML\Window\Keyboard.cpp
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Keyboard.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-window.dir/Keyboard.cpp.i"
-	cd /d P:\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E P:\C++\FlappyBird\SFML\src\SFML\Window\Keyboard.cpp > CMakeFiles\sfml-window.dir\Keyboard.cpp.i
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\SFML\src\SFML\Window\Keyboard.cpp > CMakeFiles\sfml-window.dir\Keyboard.cpp.i
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Keyboard.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-window.dir/Keyboard.cpp.s"
-	cd /d P:\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S P:\C++\FlappyBird\SFML\src\SFML\Window\Keyboard.cpp -o CMakeFiles\sfml-window.dir\Keyboard.cpp.s
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\SFML\src\SFML\Window\Keyboard.cpp -o CMakeFiles\sfml-window.dir\Keyboard.cpp.s
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Mouse.cpp.obj: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Mouse.cpp.obj: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/includes_CXX.rsp
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Mouse.cpp.obj: ../SFML/src/SFML/Window/Mouse.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=P:\C++\FlappyBird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Mouse.cpp.obj"
-	cd /d P:\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\sfml-window.dir\Mouse.cpp.obj -c P:\C++\FlappyBird\SFML\src\SFML\Window\Mouse.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Mouse.cpp.obj"
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\sfml-window.dir\Mouse.cpp.obj -c C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\SFML\src\SFML\Window\Mouse.cpp
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Mouse.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-window.dir/Mouse.cpp.i"
-	cd /d P:\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E P:\C++\FlappyBird\SFML\src\SFML\Window\Mouse.cpp > CMakeFiles\sfml-window.dir\Mouse.cpp.i
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\SFML\src\SFML\Window\Mouse.cpp > CMakeFiles\sfml-window.dir\Mouse.cpp.i
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Mouse.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-window.dir/Mouse.cpp.s"
-	cd /d P:\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S P:\C++\FlappyBird\SFML\src\SFML\Window\Mouse.cpp -o CMakeFiles\sfml-window.dir\Mouse.cpp.s
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\SFML\src\SFML\Window\Mouse.cpp -o CMakeFiles\sfml-window.dir\Mouse.cpp.s
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Touch.cpp.obj: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Touch.cpp.obj: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/includes_CXX.rsp
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Touch.cpp.obj: ../SFML/src/SFML/Window/Touch.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=P:\C++\FlappyBird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Touch.cpp.obj"
-	cd /d P:\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\sfml-window.dir\Touch.cpp.obj -c P:\C++\FlappyBird\SFML\src\SFML\Window\Touch.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Touch.cpp.obj"
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\sfml-window.dir\Touch.cpp.obj -c C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\SFML\src\SFML\Window\Touch.cpp
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Touch.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-window.dir/Touch.cpp.i"
-	cd /d P:\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E P:\C++\FlappyBird\SFML\src\SFML\Window\Touch.cpp > CMakeFiles\sfml-window.dir\Touch.cpp.i
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\SFML\src\SFML\Window\Touch.cpp > CMakeFiles\sfml-window.dir\Touch.cpp.i
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Touch.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-window.dir/Touch.cpp.s"
-	cd /d P:\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S P:\C++\FlappyBird\SFML\src\SFML\Window\Touch.cpp -o CMakeFiles\sfml-window.dir\Touch.cpp.s
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\SFML\src\SFML\Window\Touch.cpp -o CMakeFiles\sfml-window.dir\Touch.cpp.s
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Sensor.cpp.obj: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Sensor.cpp.obj: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/includes_CXX.rsp
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Sensor.cpp.obj: ../SFML/src/SFML/Window/Sensor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=P:\C++\FlappyBird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Sensor.cpp.obj"
-	cd /d P:\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\sfml-window.dir\Sensor.cpp.obj -c P:\C++\FlappyBird\SFML\src\SFML\Window\Sensor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Sensor.cpp.obj"
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\sfml-window.dir\Sensor.cpp.obj -c C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\SFML\src\SFML\Window\Sensor.cpp
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Sensor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-window.dir/Sensor.cpp.i"
-	cd /d P:\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E P:\C++\FlappyBird\SFML\src\SFML\Window\Sensor.cpp > CMakeFiles\sfml-window.dir\Sensor.cpp.i
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\SFML\src\SFML\Window\Sensor.cpp > CMakeFiles\sfml-window.dir\Sensor.cpp.i
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Sensor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-window.dir/Sensor.cpp.s"
-	cd /d P:\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S P:\C++\FlappyBird\SFML\src\SFML\Window\Sensor.cpp -o CMakeFiles\sfml-window.dir\Sensor.cpp.s
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\SFML\src\SFML\Window\Sensor.cpp -o CMakeFiles\sfml-window.dir\Sensor.cpp.s
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/SensorManager.cpp.obj: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/SensorManager.cpp.obj: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/includes_CXX.rsp
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/SensorManager.cpp.obj: ../SFML/src/SFML/Window/SensorManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=P:\C++\FlappyBird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/SensorManager.cpp.obj"
-	cd /d P:\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\sfml-window.dir\SensorManager.cpp.obj -c P:\C++\FlappyBird\SFML\src\SFML\Window\SensorManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/SensorManager.cpp.obj"
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\sfml-window.dir\SensorManager.cpp.obj -c C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\SFML\src\SFML\Window\SensorManager.cpp
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/SensorManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-window.dir/SensorManager.cpp.i"
-	cd /d P:\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E P:\C++\FlappyBird\SFML\src\SFML\Window\SensorManager.cpp > CMakeFiles\sfml-window.dir\SensorManager.cpp.i
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\SFML\src\SFML\Window\SensorManager.cpp > CMakeFiles\sfml-window.dir\SensorManager.cpp.i
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/SensorManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-window.dir/SensorManager.cpp.s"
-	cd /d P:\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S P:\C++\FlappyBird\SFML\src\SFML\Window\SensorManager.cpp -o CMakeFiles\sfml-window.dir\SensorManager.cpp.s
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\SFML\src\SFML\Window\SensorManager.cpp -o CMakeFiles\sfml-window.dir\SensorManager.cpp.s
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/VideoMode.cpp.obj: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/VideoMode.cpp.obj: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/includes_CXX.rsp
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/VideoMode.cpp.obj: ../SFML/src/SFML/Window/VideoMode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=P:\C++\FlappyBird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/VideoMode.cpp.obj"
-	cd /d P:\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\sfml-window.dir\VideoMode.cpp.obj -c P:\C++\FlappyBird\SFML\src\SFML\Window\VideoMode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/VideoMode.cpp.obj"
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\sfml-window.dir\VideoMode.cpp.obj -c C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\SFML\src\SFML\Window\VideoMode.cpp
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/VideoMode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-window.dir/VideoMode.cpp.i"
-	cd /d P:\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E P:\C++\FlappyBird\SFML\src\SFML\Window\VideoMode.cpp > CMakeFiles\sfml-window.dir\VideoMode.cpp.i
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\SFML\src\SFML\Window\VideoMode.cpp > CMakeFiles\sfml-window.dir\VideoMode.cpp.i
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/VideoMode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-window.dir/VideoMode.cpp.s"
-	cd /d P:\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S P:\C++\FlappyBird\SFML\src\SFML\Window\VideoMode.cpp -o CMakeFiles\sfml-window.dir\VideoMode.cpp.s
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\SFML\src\SFML\Window\VideoMode.cpp -o CMakeFiles\sfml-window.dir\VideoMode.cpp.s
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Window.cpp.obj: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Window.cpp.obj: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/includes_CXX.rsp
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Window.cpp.obj: ../SFML/src/SFML/Window/Window.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=P:\C++\FlappyBird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Window.cpp.obj"
-	cd /d P:\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\sfml-window.dir\Window.cpp.obj -c P:\C++\FlappyBird\SFML\src\SFML\Window\Window.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Window.cpp.obj"
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\sfml-window.dir\Window.cpp.obj -c C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\SFML\src\SFML\Window\Window.cpp
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Window.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-window.dir/Window.cpp.i"
-	cd /d P:\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E P:\C++\FlappyBird\SFML\src\SFML\Window\Window.cpp > CMakeFiles\sfml-window.dir\Window.cpp.i
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\SFML\src\SFML\Window\Window.cpp > CMakeFiles\sfml-window.dir\Window.cpp.i
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Window.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-window.dir/Window.cpp.s"
-	cd /d P:\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S P:\C++\FlappyBird\SFML\src\SFML\Window\Window.cpp -o CMakeFiles\sfml-window.dir\Window.cpp.s
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\SFML\src\SFML\Window\Window.cpp -o CMakeFiles\sfml-window.dir\Window.cpp.s
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowImpl.cpp.obj: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowImpl.cpp.obj: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/includes_CXX.rsp
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowImpl.cpp.obj: ../SFML/src/SFML/Window/WindowImpl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=P:\C++\FlappyBird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowImpl.cpp.obj"
-	cd /d P:\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\sfml-window.dir\WindowImpl.cpp.obj -c P:\C++\FlappyBird\SFML\src\SFML\Window\WindowImpl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowImpl.cpp.obj"
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\sfml-window.dir\WindowImpl.cpp.obj -c C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\SFML\src\SFML\Window\WindowImpl.cpp
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowImpl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-window.dir/WindowImpl.cpp.i"
-	cd /d P:\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E P:\C++\FlappyBird\SFML\src\SFML\Window\WindowImpl.cpp > CMakeFiles\sfml-window.dir\WindowImpl.cpp.i
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\SFML\src\SFML\Window\WindowImpl.cpp > CMakeFiles\sfml-window.dir\WindowImpl.cpp.i
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowImpl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-window.dir/WindowImpl.cpp.s"
-	cd /d P:\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S P:\C++\FlappyBird\SFML\src\SFML\Window\WindowImpl.cpp -o CMakeFiles\sfml-window.dir\WindowImpl.cpp.s
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\SFML\src\SFML\Window\WindowImpl.cpp -o CMakeFiles\sfml-window.dir\WindowImpl.cpp.s
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WglContext.cpp.obj: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WglContext.cpp.obj: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/includes_CXX.rsp
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WglContext.cpp.obj: ../SFML/src/SFML/Window/Win32/WglContext.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=P:\C++\FlappyBird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WglContext.cpp.obj"
-	cd /d P:\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\sfml-window.dir\Win32\WglContext.cpp.obj -c P:\C++\FlappyBird\SFML\src\SFML\Window\Win32\WglContext.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WglContext.cpp.obj"
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\sfml-window.dir\Win32\WglContext.cpp.obj -c C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\SFML\src\SFML\Window\Win32\WglContext.cpp
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WglContext.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-window.dir/Win32/WglContext.cpp.i"
-	cd /d P:\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E P:\C++\FlappyBird\SFML\src\SFML\Window\Win32\WglContext.cpp > CMakeFiles\sfml-window.dir\Win32\WglContext.cpp.i
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\SFML\src\SFML\Window\Win32\WglContext.cpp > CMakeFiles\sfml-window.dir\Win32\WglContext.cpp.i
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WglContext.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-window.dir/Win32/WglContext.cpp.s"
-	cd /d P:\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S P:\C++\FlappyBird\SFML\src\SFML\Window\Win32\WglContext.cpp -o CMakeFiles\sfml-window.dir\Win32\WglContext.cpp.s
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\SFML\src\SFML\Window\Win32\WglContext.cpp -o CMakeFiles\sfml-window.dir\Win32\WglContext.cpp.s
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WglExtensions.cpp.obj: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WglExtensions.cpp.obj: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/includes_CXX.rsp
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WglExtensions.cpp.obj: ../SFML/src/SFML/Window/Win32/WglExtensions.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=P:\C++\FlappyBird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WglExtensions.cpp.obj"
-	cd /d P:\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\sfml-window.dir\Win32\WglExtensions.cpp.obj -c P:\C++\FlappyBird\SFML\src\SFML\Window\Win32\WglExtensions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WglExtensions.cpp.obj"
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\sfml-window.dir\Win32\WglExtensions.cpp.obj -c C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\SFML\src\SFML\Window\Win32\WglExtensions.cpp
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WglExtensions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-window.dir/Win32/WglExtensions.cpp.i"
-	cd /d P:\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E P:\C++\FlappyBird\SFML\src\SFML\Window\Win32\WglExtensions.cpp > CMakeFiles\sfml-window.dir\Win32\WglExtensions.cpp.i
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\SFML\src\SFML\Window\Win32\WglExtensions.cpp > CMakeFiles\sfml-window.dir\Win32\WglExtensions.cpp.i
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WglExtensions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-window.dir/Win32/WglExtensions.cpp.s"
-	cd /d P:\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S P:\C++\FlappyBird\SFML\src\SFML\Window\Win32\WglExtensions.cpp -o CMakeFiles\sfml-window.dir\Win32\WglExtensions.cpp.s
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\SFML\src\SFML\Window\Win32\WglExtensions.cpp -o CMakeFiles\sfml-window.dir\Win32\WglExtensions.cpp.s
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/InputImpl.cpp.obj: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/InputImpl.cpp.obj: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/includes_CXX.rsp
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/InputImpl.cpp.obj: ../SFML/src/SFML/Window/Win32/InputImpl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=P:\C++\FlappyBird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/InputImpl.cpp.obj"
-	cd /d P:\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\sfml-window.dir\Win32\InputImpl.cpp.obj -c P:\C++\FlappyBird\SFML\src\SFML\Window\Win32\InputImpl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/InputImpl.cpp.obj"
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\sfml-window.dir\Win32\InputImpl.cpp.obj -c C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\SFML\src\SFML\Window\Win32\InputImpl.cpp
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/InputImpl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-window.dir/Win32/InputImpl.cpp.i"
-	cd /d P:\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E P:\C++\FlappyBird\SFML\src\SFML\Window\Win32\InputImpl.cpp > CMakeFiles\sfml-window.dir\Win32\InputImpl.cpp.i
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\SFML\src\SFML\Window\Win32\InputImpl.cpp > CMakeFiles\sfml-window.dir\Win32\InputImpl.cpp.i
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/InputImpl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-window.dir/Win32/InputImpl.cpp.s"
-	cd /d P:\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S P:\C++\FlappyBird\SFML\src\SFML\Window\Win32\InputImpl.cpp -o CMakeFiles\sfml-window.dir\Win32\InputImpl.cpp.s
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\SFML\src\SFML\Window\Win32\InputImpl.cpp -o CMakeFiles\sfml-window.dir\Win32\InputImpl.cpp.s
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/JoystickImpl.cpp.obj: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/JoystickImpl.cpp.obj: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/includes_CXX.rsp
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/JoystickImpl.cpp.obj: ../SFML/src/SFML/Window/Win32/JoystickImpl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=P:\C++\FlappyBird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/JoystickImpl.cpp.obj"
-	cd /d P:\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\sfml-window.dir\Win32\JoystickImpl.cpp.obj -c P:\C++\FlappyBird\SFML\src\SFML\Window\Win32\JoystickImpl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/JoystickImpl.cpp.obj"
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\sfml-window.dir\Win32\JoystickImpl.cpp.obj -c C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\SFML\src\SFML\Window\Win32\JoystickImpl.cpp
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/JoystickImpl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-window.dir/Win32/JoystickImpl.cpp.i"
-	cd /d P:\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E P:\C++\FlappyBird\SFML\src\SFML\Window\Win32\JoystickImpl.cpp > CMakeFiles\sfml-window.dir\Win32\JoystickImpl.cpp.i
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\SFML\src\SFML\Window\Win32\JoystickImpl.cpp > CMakeFiles\sfml-window.dir\Win32\JoystickImpl.cpp.i
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/JoystickImpl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-window.dir/Win32/JoystickImpl.cpp.s"
-	cd /d P:\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S P:\C++\FlappyBird\SFML\src\SFML\Window\Win32\JoystickImpl.cpp -o CMakeFiles\sfml-window.dir\Win32\JoystickImpl.cpp.s
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\SFML\src\SFML\Window\Win32\JoystickImpl.cpp -o CMakeFiles\sfml-window.dir\Win32\JoystickImpl.cpp.s
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/SensorImpl.cpp.obj: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/SensorImpl.cpp.obj: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/includes_CXX.rsp
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/SensorImpl.cpp.obj: ../SFML/src/SFML/Window/Win32/SensorImpl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=P:\C++\FlappyBird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/SensorImpl.cpp.obj"
-	cd /d P:\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\sfml-window.dir\Win32\SensorImpl.cpp.obj -c P:\C++\FlappyBird\SFML\src\SFML\Window\Win32\SensorImpl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/SensorImpl.cpp.obj"
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\sfml-window.dir\Win32\SensorImpl.cpp.obj -c C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\SFML\src\SFML\Window\Win32\SensorImpl.cpp
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/SensorImpl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-window.dir/Win32/SensorImpl.cpp.i"
-	cd /d P:\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E P:\C++\FlappyBird\SFML\src\SFML\Window\Win32\SensorImpl.cpp > CMakeFiles\sfml-window.dir\Win32\SensorImpl.cpp.i
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\SFML\src\SFML\Window\Win32\SensorImpl.cpp > CMakeFiles\sfml-window.dir\Win32\SensorImpl.cpp.i
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/SensorImpl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-window.dir/Win32/SensorImpl.cpp.s"
-	cd /d P:\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S P:\C++\FlappyBird\SFML\src\SFML\Window\Win32\SensorImpl.cpp -o CMakeFiles\sfml-window.dir\Win32\SensorImpl.cpp.s
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\SFML\src\SFML\Window\Win32\SensorImpl.cpp -o CMakeFiles\sfml-window.dir\Win32\SensorImpl.cpp.s
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/VideoModeImpl.cpp.obj: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/VideoModeImpl.cpp.obj: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/includes_CXX.rsp
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/VideoModeImpl.cpp.obj: ../SFML/src/SFML/Window/Win32/VideoModeImpl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=P:\C++\FlappyBird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/VideoModeImpl.cpp.obj"
-	cd /d P:\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\sfml-window.dir\Win32\VideoModeImpl.cpp.obj -c P:\C++\FlappyBird\SFML\src\SFML\Window\Win32\VideoModeImpl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/VideoModeImpl.cpp.obj"
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\sfml-window.dir\Win32\VideoModeImpl.cpp.obj -c C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\SFML\src\SFML\Window\Win32\VideoModeImpl.cpp
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/VideoModeImpl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-window.dir/Win32/VideoModeImpl.cpp.i"
-	cd /d P:\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E P:\C++\FlappyBird\SFML\src\SFML\Window\Win32\VideoModeImpl.cpp > CMakeFiles\sfml-window.dir\Win32\VideoModeImpl.cpp.i
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\SFML\src\SFML\Window\Win32\VideoModeImpl.cpp > CMakeFiles\sfml-window.dir\Win32\VideoModeImpl.cpp.i
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/VideoModeImpl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-window.dir/Win32/VideoModeImpl.cpp.s"
-	cd /d P:\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S P:\C++\FlappyBird\SFML\src\SFML\Window\Win32\VideoModeImpl.cpp -o CMakeFiles\sfml-window.dir\Win32\VideoModeImpl.cpp.s
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\SFML\src\SFML\Window\Win32\VideoModeImpl.cpp -o CMakeFiles\sfml-window.dir\Win32\VideoModeImpl.cpp.s
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WindowImplWin32.cpp.obj: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WindowImplWin32.cpp.obj: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/includes_CXX.rsp
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WindowImplWin32.cpp.obj: ../SFML/src/SFML/Window/Win32/WindowImplWin32.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=P:\C++\FlappyBird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WindowImplWin32.cpp.obj"
-	cd /d P:\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\sfml-window.dir\Win32\WindowImplWin32.cpp.obj -c P:\C++\FlappyBird\SFML\src\SFML\Window\Win32\WindowImplWin32.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WindowImplWin32.cpp.obj"
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\sfml-window.dir\Win32\WindowImplWin32.cpp.obj -c C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\SFML\src\SFML\Window\Win32\WindowImplWin32.cpp
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WindowImplWin32.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-window.dir/Win32/WindowImplWin32.cpp.i"
-	cd /d P:\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E P:\C++\FlappyBird\SFML\src\SFML\Window\Win32\WindowImplWin32.cpp > CMakeFiles\sfml-window.dir\Win32\WindowImplWin32.cpp.i
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\SFML\src\SFML\Window\Win32\WindowImplWin32.cpp > CMakeFiles\sfml-window.dir\Win32\WindowImplWin32.cpp.i
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WindowImplWin32.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-window.dir/Win32/WindowImplWin32.cpp.s"
-	cd /d P:\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S P:\C++\FlappyBird\SFML\src\SFML\Window\Win32\WindowImplWin32.cpp -o CMakeFiles\sfml-window.dir\Win32\WindowImplWin32.cpp.s
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\SFML\src\SFML\Window\Win32\WindowImplWin32.cpp -o CMakeFiles\sfml-window.dir\Win32\WindowImplWin32.cpp.s
 
 # Object files for target sfml-window
 sfml__window_OBJECTS = \
@@ -403,9 +403,9 @@ SFML/lib/libsfml-window-s-d.a: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/W
 SFML/lib/libsfml-window-s-d.a: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WindowImplWin32.cpp.obj
 SFML/lib/libsfml-window-s-d.a: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/build.make
 SFML/lib/libsfml-window-s-d.a: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=P:\C++\FlappyBird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX static library ..\..\..\lib\libsfml-window-s-d.a"
-	cd /d P:\C++\FlappyBird\build\SFML\src\SFML\Window && $(CMAKE_COMMAND) -P CMakeFiles\sfml-window.dir\cmake_clean_target.cmake
-	cd /d P:\C++\FlappyBird\build\SFML\src\SFML\Window && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\sfml-window.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX static library ..\..\..\lib\libsfml-window-s-d.a"
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\SFML\src\SFML\Window && $(CMAKE_COMMAND) -P CMakeFiles\sfml-window.dir\cmake_clean_target.cmake
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\SFML\src\SFML\Window && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\sfml-window.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/build: SFML/lib/libsfml-window-s-d.a
@@ -413,10 +413,10 @@ SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/build: SFML/lib/libsfml-window-s
 .PHONY : SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/build
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/clean:
-	cd /d P:\C++\FlappyBird\build\SFML\src\SFML\Window && $(CMAKE_COMMAND) -P CMakeFiles\sfml-window.dir\cmake_clean.cmake
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\SFML\src\SFML\Window && $(CMAKE_COMMAND) -P CMakeFiles\sfml-window.dir\cmake_clean.cmake
 .PHONY : SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/clean
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" P:\C++\FlappyBird P:\C++\FlappyBird\SFML\src\SFML\Window P:\C++\FlappyBird\build P:\C++\FlappyBird\build\SFML\src\SFML\Window P:\C++\FlappyBird\build\SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\SFML\src\SFML\Window C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\SFML\src\SFML\Window C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/depend
 

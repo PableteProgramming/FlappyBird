@@ -598,7 +598,7 @@ SFML/Window/WindowImpl.hpp
 SFML/Window/iOS/ObjCType.hpp
 -
 
-P:/C++/FlappyBird/SFML/src/SFML/Window/Context.cpp
+C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Window/Context.cpp
 SFML/Window/Context.hpp
 -
 SFML/Window/GlContext.hpp
@@ -606,7 +606,7 @@ SFML/Window/GlContext.hpp
 SFML/System/ThreadLocalPtr.hpp
 -
 
-P:/C++/FlappyBird/SFML/src/SFML/Window/GlContext.cpp
+C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Window/GlContext.cpp
 SFML/Window/GlContext.hpp
 -
 SFML/Window/Context.hpp
@@ -646,29 +646,29 @@ SFML/Window/iOS/EaglContext.hpp
 SFML/Window/EglContext.hpp
 -
 
-P:/C++/FlappyBird/SFML/src/SFML/Window/GlResource.cpp
+C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Window/GlResource.cpp
 SFML/Window/GlResource.hpp
 -
 SFML/Window/GlContext.hpp
 -
 
-P:/C++/FlappyBird/SFML/src/SFML/Window/Joystick.cpp
+C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Window/Joystick.cpp
 SFML/Window/Joystick.hpp
 -
 SFML/Window/JoystickManager.hpp
 -
 
-P:/C++/FlappyBird/SFML/src/SFML/Window/JoystickManager.cpp
+C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Window/JoystickManager.cpp
 SFML/Window/JoystickManager.hpp
 -
 
-P:/C++/FlappyBird/SFML/src/SFML/Window/Keyboard.cpp
+C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Window/Keyboard.cpp
 SFML/Window/Keyboard.hpp
 -
 SFML/Window/InputImpl.hpp
 -
 
-P:/C++/FlappyBird/SFML/src/SFML/Window/Mouse.cpp
+C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Window/Mouse.cpp
 SFML/Window/Mouse.hpp
 -
 SFML/Window/InputImpl.hpp
@@ -676,25 +676,25 @@ SFML/Window/InputImpl.hpp
 SFML/Window/Window.hpp
 -
 
-P:/C++/FlappyBird/SFML/src/SFML/Window/Sensor.cpp
+C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Window/Sensor.cpp
 SFML/Window/Sensor.hpp
 -
 SFML/Window/SensorManager.hpp
 -
 
-P:/C++/FlappyBird/SFML/src/SFML/Window/SensorManager.cpp
+C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Window/SensorManager.cpp
 SFML/Window/SensorManager.hpp
 -
 SFML/System/Err.hpp
 -
 
-P:/C++/FlappyBird/SFML/src/SFML/Window/Touch.cpp
+C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Window/Touch.cpp
 SFML/Window/Touch.hpp
 -
 SFML/Window/InputImpl.hpp
 -
 
-P:/C++/FlappyBird/SFML/src/SFML/Window/VideoMode.cpp
+C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Window/VideoMode.cpp
 SFML/Window/VideoMode.hpp
 -
 SFML/Window/VideoModeImpl.hpp
@@ -704,7 +704,7 @@ algorithm
 functional
 -
 
-P:/C++/FlappyBird/SFML/src/SFML/Window/Win32/InputImpl.cpp
+C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Window/Win32/InputImpl.cpp
 SFML/Window/Window.hpp
 -
 SFML/Window/Win32/InputImpl.hpp
@@ -712,7 +712,7 @@ SFML/Window/Win32/InputImpl.hpp
 windows.h
 -
 
-P:/C++/FlappyBird/SFML/src/SFML/Window/Win32/JoystickImpl.cpp
+C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Window/Win32/JoystickImpl.cpp
 SFML/Window/JoystickImpl.hpp
 -
 SFML/System/Clock.hpp
@@ -734,11 +734,11 @@ sstream
 string
 -
 
-P:/C++/FlappyBird/SFML/src/SFML/Window/Win32/SensorImpl.cpp
+C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Window/Win32/SensorImpl.cpp
 SFML/Window/SensorImpl.hpp
 -
 
-P:/C++/FlappyBird/SFML/src/SFML/Window/Win32/VideoModeImpl.cpp
+C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Window/Win32/VideoModeImpl.cpp
 SFML/Window/VideoModeImpl.hpp
 -
 windows.h
@@ -746,7 +746,7 @@ windows.h
 algorithm
 -
 
-P:/C++/FlappyBird/SFML/src/SFML/Window/Win32/WglContext.cpp
+C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Window/Win32/WglContext.cpp
 SFML/Window/WindowImpl.hpp
 -
 SFML/OpenGL.hpp
@@ -766,7 +766,7 @@ sstream
 vector
 -
 
-P:/C++/FlappyBird/SFML/src/SFML/Window/Win32/WglExtensions.cpp
+C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Window/Win32/WglExtensions.cpp
 SFML/Window/Win32/WglExtensions.hpp
 -
 SFML/Window/Context.hpp
@@ -780,7 +780,7 @@ cstddef
 string
 -
 
-P:/C++/FlappyBird/SFML/src/SFML/Window/Win32/WindowImplWin32.cpp
+C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Window/Win32/WindowImplWin32.cpp
 SFML/Window/Win32/WindowImplWin32.hpp
 -
 SFML/Window/WindowStyle.hpp
@@ -794,7 +794,7 @@ SFML/System/Utf.hpp
 vector
 -
 
-P:/C++/FlappyBird/SFML/src/SFML/Window/Window.cpp
+C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Window/Window.cpp
 SFML/Window/Window.hpp
 -
 SFML/Window/GlContext.hpp
@@ -806,7 +806,7 @@ SFML/System/Sleep.hpp
 SFML/System/Err.hpp
 -
 
-P:/C++/FlappyBird/SFML/src/SFML/Window/WindowImpl.cpp
+C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Window/WindowImpl.cpp
 SFML/Window/WindowImpl.hpp
 -
 SFML/Window/Event.hpp

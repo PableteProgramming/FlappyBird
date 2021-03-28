@@ -1,4 +1,4 @@
-# Install script for directory: P:/C++/FlappyBird/SFML/src/SFML/Main
+# Install script for directory: C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,6 +38,6 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevelx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "P:/C++/FlappyBird/build/SFML/lib/libsfml-main-d.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/build/SFML/lib/libsfml-main-d.a")
 endif()
 

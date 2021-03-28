@@ -67,7 +67,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "p:/C++/FlappyBird/build"
+			"value" : "c:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -167,10 +167,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "CXX compiler"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "FILEPATH",
 			"value" : "C:/MinGW/bin/g++.exe"
 		},
 		{
@@ -311,10 +311,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "C compiler"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "FILEPATH",
 			"value" : "C:/MinGW/bin/gcc.exe"
 		},
 		{
@@ -659,7 +659,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "P:/C++/FlappyBird"
+			"value" : "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1279,7 +1279,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "[P:/C++/FlappyBird/SFML/extlibs/libs-mingw/x86/libFLAC.a][P:/C++/FlappyBird/SFML/extlibs/headers][v()]"
+			"value" : "[C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/extlibs/libs-mingw/x86/libFLAC.a][C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/extlibs/headers][v()]"
 		},
 		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_JPEG",
@@ -1291,7 +1291,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "[P:/C++/FlappyBird/SFML/extlibs/libs-mingw/x86/libjpeg.a][P:/C++/FlappyBird/SFML/extlibs/headers/jpeg][v80()]"
+			"value" : "[C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/extlibs/libs-mingw/x86/libjpeg.a][C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/extlibs/headers/jpeg][v80()]"
 		},
 		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_OpenAL",
@@ -1303,7 +1303,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "[P:/C++/FlappyBird/SFML/extlibs/libs-mingw/x86/libopenal32.a][P:/C++/FlappyBird/SFML/extlibs/headers/AL][v()]"
+			"value" : "[C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/extlibs/libs-mingw/x86/libopenal32.a][C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/extlibs/headers/AL][v()]"
 		},
 		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_OpenGL",
@@ -1327,7 +1327,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "[P:/C++/FlappyBird/SFML/extlibs/libs-mingw/x86/libvorbis.a][P:/C++/FlappyBird/SFML/extlibs/libs-mingw/x86/libvorbisfile.a][P:/C++/FlappyBird/SFML/extlibs/libs-mingw/x86/libvorbisenc.a][P:/C++/FlappyBird/SFML/extlibs/libs-mingw/x86/libogg.a][P:/C++/FlappyBird/SFML/extlibs/headers][P:/C++/FlappyBird/SFML/extlibs/headers][v()]"
+			"value" : "[C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/extlibs/libs-mingw/x86/libvorbis.a][C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/extlibs/libs-mingw/x86/libvorbisfile.a][C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/extlibs/libs-mingw/x86/libvorbisenc.a][C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/extlibs/libs-mingw/x86/libogg.a][C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/extlibs/headers][C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/extlibs/headers][v()]"
 		},
 		{
 			"name" : "FLAC_INCLUDE_DIR",
@@ -1343,7 +1343,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "P:/C++/FlappyBird/SFML/extlibs/headers"
+			"value" : "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/extlibs/headers"
 		},
 		{
 			"name" : "FLAC_LIBRARY",
@@ -1359,7 +1359,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "P:/C++/FlappyBird/SFML/extlibs/libs-mingw/x86/libFLAC.a"
+			"value" : "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/extlibs/libs-mingw/x86/libFLAC.a"
 		},
 		{
 			"name" : "FREETYPE_INCLUDE_DIR_freetype2",
@@ -1375,7 +1375,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "P:/C++/FlappyBird/SFML/extlibs/headers/freetype2"
+			"value" : "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/extlibs/headers/freetype2"
 		},
 		{
 			"name" : "FREETYPE_INCLUDE_DIR_ft2build",
@@ -1391,7 +1391,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "P:/C++/FlappyBird/SFML/extlibs/headers/freetype2"
+			"value" : "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/extlibs/headers/freetype2"
 		},
 		{
 			"name" : "FREETYPE_LIBRARY",
@@ -1407,7 +1407,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "P:/C++/FlappyBird/SFML/extlibs/libs-mingw/x86/libfreetype.a"
+			"value" : "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/extlibs/libs-mingw/x86/libfreetype.a"
 		},
 		{
 			"name" : "FlappyBird_BINARY_DIR",
@@ -1419,7 +1419,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "P:/C++/FlappyBird/build"
+			"value" : "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/build"
 		},
 		{
 			"name" : "FlappyBird_SOURCE_DIR",
@@ -1431,7 +1431,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "P:/C++/FlappyBird"
+			"value" : "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird"
 		},
 		{
 			"name" : "HAVE_SIZEOF_VOID_PTR",
@@ -1495,7 +1495,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "P:/C++/FlappyBird/SFML/extlibs/headers/jpeg"
+			"value" : "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/extlibs/headers/jpeg"
 		},
 		{
 			"name" : "JPEG_LIBRARY",
@@ -1543,7 +1543,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "P:/C++/FlappyBird/SFML/extlibs/libs-mingw/x86/libjpeg.a"
+			"value" : "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/extlibs/libs-mingw/x86/libjpeg.a"
 		},
 		{
 			"name" : "OGG_INCLUDE_DIR",
@@ -1559,7 +1559,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "P:/C++/FlappyBird/SFML/extlibs/headers"
+			"value" : "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/extlibs/headers"
 		},
 		{
 			"name" : "OGG_LIBRARY",
@@ -1575,7 +1575,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "P:/C++/FlappyBird/SFML/extlibs/libs-mingw/x86/libogg.a"
+			"value" : "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/extlibs/libs-mingw/x86/libogg.a"
 		},
 		{
 			"name" : "OPENAL_INCLUDE_DIR",
@@ -1591,7 +1591,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "P:/C++/FlappyBird/SFML/extlibs/headers/AL"
+			"value" : "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/extlibs/headers/AL"
 		},
 		{
 			"name" : "OPENAL_LIBRARY",
@@ -1607,7 +1607,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "P:/C++/FlappyBird/SFML/extlibs/libs-mingw/x86/libopenal32.a"
+			"value" : "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/extlibs/libs-mingw/x86/libopenal32.a"
 		},
 		{
 			"name" : "OPENGL_gl_LIBRARY",
@@ -1651,7 +1651,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "P:/C++/FlappyBird/build/SFML"
+			"value" : "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/build/SFML"
 		},
 		{
 			"name" : "SFML_BUILD_DOC",
@@ -1699,7 +1699,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "P:/C++/FlappyBird/SFML"
+			"value" : "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML"
 		},
 		{
 			"name" : "SFML_USE_STATIC_STD_LIBS",
@@ -1739,7 +1739,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "P:/C++/FlappyBird/SFML/extlibs/libs-mingw/x86/libvorbisenc.a"
+			"value" : "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/extlibs/libs-mingw/x86/libvorbisenc.a"
 		},
 		{
 			"name" : "VORBISFILE_LIBRARY",
@@ -1755,7 +1755,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "P:/C++/FlappyBird/SFML/extlibs/libs-mingw/x86/libvorbisfile.a"
+			"value" : "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/extlibs/libs-mingw/x86/libvorbisfile.a"
 		},
 		{
 			"name" : "VORBIS_INCLUDE_DIR",
@@ -1771,7 +1771,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "P:/C++/FlappyBird/SFML/extlibs/headers"
+			"value" : "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/extlibs/headers"
 		},
 		{
 			"name" : "VORBIS_LIBRARY",
@@ -1787,7 +1787,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "P:/C++/FlappyBird/SFML/extlibs/libs-mingw/x86/libvorbis.a"
+			"value" : "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/extlibs/libs-mingw/x86/libvorbis.a"
 		},
 		{
 			"name" : "sfml-audio_LIB_DEPENDS",
@@ -1799,7 +1799,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "general;sfml-system;general;P:/C++/FlappyBird/SFML/extlibs/libs-mingw/x86/libopenal32.a;general;P:/C++/FlappyBird/SFML/extlibs/libs-mingw/x86/libvorbisenc.a;general;P:/C++/FlappyBird/SFML/extlibs/libs-mingw/x86/libvorbisfile.a;general;P:/C++/FlappyBird/SFML/extlibs/libs-mingw/x86/libvorbis.a;general;P:/C++/FlappyBird/SFML/extlibs/libs-mingw/x86/libogg.a;general;P:/C++/FlappyBird/SFML/extlibs/libs-mingw/x86/libFLAC.a;"
+			"value" : "general;sfml-system;general;C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/extlibs/libs-mingw/x86/libopenal32.a;general;C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/extlibs/libs-mingw/x86/libvorbisenc.a;general;C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/extlibs/libs-mingw/x86/libvorbisfile.a;general;C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/extlibs/libs-mingw/x86/libvorbis.a;general;C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/extlibs/libs-mingw/x86/libogg.a;general;C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/extlibs/libs-mingw/x86/libFLAC.a;"
 		},
 		{
 			"name" : "sfml-graphics_LIB_DEPENDS",
@@ -1811,7 +1811,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "general;sfml-window;general;sfml-system;general;opengl32;general;P:/C++/FlappyBird/SFML/extlibs/libs-mingw/x86/libfreetype.a;general;P:/C++/FlappyBird/SFML/extlibs/libs-mingw/x86/libjpeg.a;"
+			"value" : "general;sfml-window;general;sfml-system;general;opengl32;general;C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/extlibs/libs-mingw/x86/libfreetype.a;general;C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/extlibs/libs-mingw/x86/libjpeg.a;"
 		},
 		{
 			"name" : "sfml-network_LIB_DEPENDS",

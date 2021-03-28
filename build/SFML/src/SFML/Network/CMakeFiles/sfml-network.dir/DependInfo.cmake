@@ -4,16 +4,16 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "P:/C++/FlappyBird/SFML/src/SFML/Network/Ftp.cpp" "P:/C++/FlappyBird/build/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/Ftp.cpp.obj"
-  "P:/C++/FlappyBird/SFML/src/SFML/Network/Http.cpp" "P:/C++/FlappyBird/build/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/Http.cpp.obj"
-  "P:/C++/FlappyBird/SFML/src/SFML/Network/IpAddress.cpp" "P:/C++/FlappyBird/build/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/IpAddress.cpp.obj"
-  "P:/C++/FlappyBird/SFML/src/SFML/Network/Packet.cpp" "P:/C++/FlappyBird/build/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/Packet.cpp.obj"
-  "P:/C++/FlappyBird/SFML/src/SFML/Network/Socket.cpp" "P:/C++/FlappyBird/build/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/Socket.cpp.obj"
-  "P:/C++/FlappyBird/SFML/src/SFML/Network/SocketSelector.cpp" "P:/C++/FlappyBird/build/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/SocketSelector.cpp.obj"
-  "P:/C++/FlappyBird/SFML/src/SFML/Network/TcpListener.cpp" "P:/C++/FlappyBird/build/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/TcpListener.cpp.obj"
-  "P:/C++/FlappyBird/SFML/src/SFML/Network/TcpSocket.cpp" "P:/C++/FlappyBird/build/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/TcpSocket.cpp.obj"
-  "P:/C++/FlappyBird/SFML/src/SFML/Network/UdpSocket.cpp" "P:/C++/FlappyBird/build/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/UdpSocket.cpp.obj"
-  "P:/C++/FlappyBird/SFML/src/SFML/Network/Win32/SocketImpl.cpp" "P:/C++/FlappyBird/build/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/Win32/SocketImpl.cpp.obj"
+  "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Network/Ftp.cpp" "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/build/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/Ftp.cpp.obj"
+  "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Network/Http.cpp" "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/build/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/Http.cpp.obj"
+  "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Network/IpAddress.cpp" "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/build/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/IpAddress.cpp.obj"
+  "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Network/Packet.cpp" "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/build/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/Packet.cpp.obj"
+  "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Network/Socket.cpp" "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/build/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/Socket.cpp.obj"
+  "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Network/SocketSelector.cpp" "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/build/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/SocketSelector.cpp.obj"
+  "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Network/TcpListener.cpp" "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/build/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/TcpListener.cpp.obj"
+  "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Network/TcpSocket.cpp" "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/build/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/TcpSocket.cpp.obj"
+  "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Network/UdpSocket.cpp" "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/build/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/UdpSocket.cpp.obj"
+  "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Network/Win32/SocketImpl.cpp" "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/build/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/Win32/SocketImpl.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -30,7 +30,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "P:/C++/FlappyBird/build/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/DependInfo.cmake"
+  "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/build/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

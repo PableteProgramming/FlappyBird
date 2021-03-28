@@ -6,6 +6,7 @@ add_compile_definitions(SFML_STATIC)
 
 target_sources(
     ${PROJECT_NAME} PUBLIC
+    ${SRC_DIR}/Bird.cpp
 )
 
 target_include_directories(

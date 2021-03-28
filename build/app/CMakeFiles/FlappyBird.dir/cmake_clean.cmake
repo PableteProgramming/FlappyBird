@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/FlappyBird.dir/src/Bird.cpp.obj"
   "CMakeFiles/FlappyBird.dir/src/main.cpp.obj"
   "FlappyBird.exe"
   "FlappyBird.exe.manifest"

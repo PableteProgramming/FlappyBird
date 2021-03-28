@@ -66,10 +66,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = P:\C++\FlappyBird
+CMAKE_SOURCE_DIR = C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = P:\C++\FlappyBird\build
+CMAKE_BINARY_DIR = C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -144,9 +144,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start P:\C++\FlappyBird\build\CMakeFiles P:\C++\FlappyBird\build\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\CMakeFiles C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start P:\C++\FlappyBird\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target

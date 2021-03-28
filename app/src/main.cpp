@@ -4,18 +4,24 @@ int main()
 {
     bool running = true;
 
-    sf::Sprite bird;
     sf::Texture texture;
     if (!texture.loadFromFile("resources/images/bird1.png"))
     {
         std::cout << "Failed to load bird image!" << std::endl;
         return 1;
     }
+    
     sf::Sprite bird(texture);
 
 
-    Bird bird(bird, 0, 0);
+    Bird player(bird, 0, 0);
     
+
+    sf::Clock clock;
+    double framerate=120;
+    double totaltimetopass= 1/120;
+    double timepassed=0;
+
 
     while (running)
     {
@@ -26,6 +32,20 @@ int main()
                 running=false;
             }
         }
+
+
+        double toadd= clock.restart().asSeconds();
+        timepassed+=toadd;
+
+
+        if(timepassed>=totaltimetopass){
+            player.Move(timepassed);
+            timepassed=0;
+            window.clear();
+            player.Draw(window);
+            window.display();
+        }
+
     }
 
     window.close();

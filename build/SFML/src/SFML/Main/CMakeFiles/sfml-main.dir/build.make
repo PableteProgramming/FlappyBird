@@ -61,10 +61,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = P:\C++\FlappyBird
+CMAKE_SOURCE_DIR = C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = P:\C++\FlappyBird\build
+CMAKE_BINARY_DIR = C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build
 
 # Include any dependencies generated for this target.
 include SFML/src/SFML/Main/CMakeFiles/sfml-main.dir/depend.make
@@ -78,16 +78,16 @@ include SFML/src/SFML/Main/CMakeFiles/sfml-main.dir/flags.make
 SFML/src/SFML/Main/CMakeFiles/sfml-main.dir/MainWin32.cpp.obj: SFML/src/SFML/Main/CMakeFiles/sfml-main.dir/flags.make
 SFML/src/SFML/Main/CMakeFiles/sfml-main.dir/MainWin32.cpp.obj: SFML/src/SFML/Main/CMakeFiles/sfml-main.dir/includes_CXX.rsp
 SFML/src/SFML/Main/CMakeFiles/sfml-main.dir/MainWin32.cpp.obj: ../SFML/src/SFML/Main/MainWin32.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=P:\C++\FlappyBird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object SFML/src/SFML/Main/CMakeFiles/sfml-main.dir/MainWin32.cpp.obj"
-	cd /d P:\C++\FlappyBird\build\SFML\src\SFML\Main && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\sfml-main.dir\MainWin32.cpp.obj -c P:\C++\FlappyBird\SFML\src\SFML\Main\MainWin32.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object SFML/src/SFML/Main/CMakeFiles/sfml-main.dir/MainWin32.cpp.obj"
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\SFML\src\SFML\Main && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\sfml-main.dir\MainWin32.cpp.obj -c C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\SFML\src\SFML\Main\MainWin32.cpp
 
 SFML/src/SFML/Main/CMakeFiles/sfml-main.dir/MainWin32.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-main.dir/MainWin32.cpp.i"
-	cd /d P:\C++\FlappyBird\build\SFML\src\SFML\Main && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E P:\C++\FlappyBird\SFML\src\SFML\Main\MainWin32.cpp > CMakeFiles\sfml-main.dir\MainWin32.cpp.i
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\SFML\src\SFML\Main && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\SFML\src\SFML\Main\MainWin32.cpp > CMakeFiles\sfml-main.dir\MainWin32.cpp.i
 
 SFML/src/SFML/Main/CMakeFiles/sfml-main.dir/MainWin32.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-main.dir/MainWin32.cpp.s"
-	cd /d P:\C++\FlappyBird\build\SFML\src\SFML\Main && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S P:\C++\FlappyBird\SFML\src\SFML\Main\MainWin32.cpp -o CMakeFiles\sfml-main.dir\MainWin32.cpp.s
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\SFML\src\SFML\Main && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\SFML\src\SFML\Main\MainWin32.cpp -o CMakeFiles\sfml-main.dir\MainWin32.cpp.s
 
 # Object files for target sfml-main
 sfml__main_OBJECTS = \
@@ -99,9 +99,9 @@ sfml__main_EXTERNAL_OBJECTS =
 SFML/lib/libsfml-main-d.a: SFML/src/SFML/Main/CMakeFiles/sfml-main.dir/MainWin32.cpp.obj
 SFML/lib/libsfml-main-d.a: SFML/src/SFML/Main/CMakeFiles/sfml-main.dir/build.make
 SFML/lib/libsfml-main-d.a: SFML/src/SFML/Main/CMakeFiles/sfml-main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=P:\C++\FlappyBird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ..\..\..\lib\libsfml-main-d.a"
-	cd /d P:\C++\FlappyBird\build\SFML\src\SFML\Main && $(CMAKE_COMMAND) -P CMakeFiles\sfml-main.dir\cmake_clean_target.cmake
-	cd /d P:\C++\FlappyBird\build\SFML\src\SFML\Main && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\sfml-main.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ..\..\..\lib\libsfml-main-d.a"
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\SFML\src\SFML\Main && $(CMAKE_COMMAND) -P CMakeFiles\sfml-main.dir\cmake_clean_target.cmake
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\SFML\src\SFML\Main && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\sfml-main.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 SFML/src/SFML/Main/CMakeFiles/sfml-main.dir/build: SFML/lib/libsfml-main-d.a
@@ -109,10 +109,10 @@ SFML/src/SFML/Main/CMakeFiles/sfml-main.dir/build: SFML/lib/libsfml-main-d.a
 .PHONY : SFML/src/SFML/Main/CMakeFiles/sfml-main.dir/build
 
 SFML/src/SFML/Main/CMakeFiles/sfml-main.dir/clean:
-	cd /d P:\C++\FlappyBird\build\SFML\src\SFML\Main && $(CMAKE_COMMAND) -P CMakeFiles\sfml-main.dir\cmake_clean.cmake
+	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\SFML\src\SFML\Main && $(CMAKE_COMMAND) -P CMakeFiles\sfml-main.dir\cmake_clean.cmake
 .PHONY : SFML/src/SFML/Main/CMakeFiles/sfml-main.dir/clean
 
 SFML/src/SFML/Main/CMakeFiles/sfml-main.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" P:\C++\FlappyBird P:\C++\FlappyBird\SFML\src\SFML\Main P:\C++\FlappyBird\build P:\C++\FlappyBird\build\SFML\src\SFML\Main P:\C++\FlappyBird\build\SFML\src\SFML\Main\CMakeFiles\sfml-main.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\SFML\src\SFML\Main C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\SFML\src\SFML\Main C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\SFML\src\SFML\Main\CMakeFiles\sfml-main.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : SFML/src/SFML/Main/CMakeFiles/sfml-main.dir/depend
 

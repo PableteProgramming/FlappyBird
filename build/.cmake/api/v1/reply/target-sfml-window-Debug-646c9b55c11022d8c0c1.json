@@ -3,7 +3,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "SFML/lib/libsfml-system-s-d.a"
+			"path" : "SFML/lib/libsfml-window-s-d.a"
 		}
 	],
 	"backtrace" : 2,
@@ -14,12 +14,14 @@
 			"add_library",
 			"sfml_add_library",
 			"install",
+			"target_link_libraries",
+			"add_definitions",
 			"include_directories"
 		],
 		"files" : 
 		[
 			"SFML/cmake/Macros.cmake",
-			"SFML/src/SFML/System/CMakeLists.txt",
+			"SFML/src/SFML/Window/CMakeLists.txt",
 			"SFML/CMakeLists.txt",
 			"SFML/src/SFML/CMakeLists.txt"
 		],
@@ -31,7 +33,7 @@
 			{
 				"command" : 1,
 				"file" : 1,
-				"line" : 103,
+				"line" : 251,
 				"parent" : 0
 			},
 			{
@@ -47,22 +49,34 @@
 				"parent" : 1
 			},
 			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 92,
+				"parent" : 1
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 71,
+				"parent" : 0
+			},
+			{
 				"file" : 2
 			},
 			{
-				"command" : 3,
+				"command" : 5,
 				"file" : 2,
 				"line" : 51,
-				"parent" : 4
+				"parent" : 6
 			},
 			{
 				"file" : 3
 			},
 			{
-				"command" : 3,
+				"command" : 5,
 				"file" : 3,
 				"line" : 43,
-				"parent" : 6
+				"parent" : 8
 			}
 		]
 	},
@@ -79,46 +93,65 @@
 			[
 				{
 					"define" : "SFML_STATIC"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "UNICODE"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "_UNICODE"
 				}
 			],
 			"includes" : 
 			[
 				{
-					"backtrace" : 5,
-					"path" : "P:/C++/FlappyBird/SFML/include"
+					"backtrace" : 7,
+					"path" : "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/include"
 				},
 				{
-					"backtrace" : 7,
-					"path" : "P:/C++/FlappyBird/SFML/src"
+					"backtrace" : 9,
+					"path" : "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src"
 				}
 			],
 			"language" : "CXX",
 			"sourceIndexes" : 
 			[
 				0,
-				2,
-				6,
-				8,
-				12,
-				14,
-				17,
+				3,
+				5,
+				11,
+				13,
+				16,
+				18,
 				20,
+				22,
 				24,
+				26,
+				29,
 				32,
-				34,
-				36,
-				38,
-				40,
-				42,
-				44
+				35,
+				37,
+				39,
+				41,
+				44,
+				45,
+				46
 			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "sfml-system::@f1fd4bce49687b53ec1b"
 		}
 	],
 	"folder" : 
 	{
 		"name" : "SFML"
 	},
-	"id" : "sfml-system::@f1fd4bce49687b53ec1b",
+	"id" : "sfml-window::@0daf25d7b5dd386fd904",
 	"install" : 
 	{
 		"destinations" : 
@@ -133,12 +166,12 @@
 			"path" : "C:/Program Files (x86)/FlappyBird"
 		}
 	},
-	"name" : "sfml-system",
-	"nameOnDisk" : "libsfml-system-s-d.a",
+	"name" : "sfml-window",
+	"nameOnDisk" : "libsfml-window-s-d.a",
 	"paths" : 
 	{
-		"build" : "SFML/src/SFML/System",
-		"source" : "SFML/src/SFML/System"
+		"build" : "SFML/src/SFML/Window",
+		"source" : "SFML/src/SFML/Window"
 	},
 	"sourceGroups" : 
 	[
@@ -180,14 +213,14 @@
 				31,
 				32,
 				33,
-				34,
-				35
+				34
 			]
 		},
 		{
 			"name" : "windows",
 			"sourceIndexes" : 
 			[
+				35,
 				36,
 				37,
 				38,
@@ -197,7 +230,9 @@
 				42,
 				43,
 				44,
-				45
+				45,
+				46,
+				47
 			]
 		}
 	],
@@ -206,247 +241,261 @@
 		{
 			"backtrace" : 2,
 			"compileGroupIndex" : 0,
-			"path" : "SFML/src/SFML/System/Clock.cpp",
+			"path" : "SFML/src/SFML/Window/Context.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 2,
-			"path" : "SFML/include/SFML/System/Clock.hpp",
+			"path" : "SFML/include/SFML/Window/Context.hpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 2,
-			"compileGroupIndex" : 0,
-			"path" : "SFML/src/SFML/System/Err.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 2,
-			"path" : "SFML/include/SFML/System/Err.hpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 2,
-			"path" : "SFML/include/SFML/System/Export.hpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 2,
-			"path" : "SFML/include/SFML/System/InputStream.hpp",
+			"path" : "SFML/include/SFML/Window/Export.hpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 2,
 			"compileGroupIndex" : 0,
-			"path" : "SFML/src/SFML/System/Lock.cpp",
+			"path" : "SFML/src/SFML/Window/GlContext.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 2,
-			"path" : "SFML/include/SFML/System/Lock.hpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 2,
-			"compileGroupIndex" : 0,
-			"path" : "SFML/src/SFML/System/Mutex.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 2,
-			"path" : "SFML/include/SFML/System/Mutex.hpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 2,
-			"path" : "SFML/include/SFML/System/NativeActivity.hpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 2,
-			"path" : "SFML/include/SFML/System/NonCopyable.hpp",
+			"path" : "SFML/src/SFML/Window/GlContext.hpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 2,
 			"compileGroupIndex" : 0,
-			"path" : "SFML/src/SFML/System/Sleep.cpp",
+			"path" : "SFML/src/SFML/Window/GlResource.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 2,
-			"path" : "SFML/include/SFML/System/Sleep.hpp",
+			"path" : "SFML/include/SFML/Window/GlResource.hpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 2,
-			"compileGroupIndex" : 0,
-			"path" : "SFML/src/SFML/System/String.cpp",
+			"path" : "SFML/include/SFML/Window/ContextSettings.hpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 2,
-			"path" : "SFML/include/SFML/System/String.hpp",
+			"path" : "SFML/include/SFML/Window/Event.hpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 2,
-			"path" : "SFML/include/SFML/System/String.inl",
+			"path" : "SFML/src/SFML/Window/InputImpl.hpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 2,
-			"compileGroupIndex" : 0,
-			"path" : "SFML/src/SFML/System/Thread.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 2,
-			"path" : "SFML/include/SFML/System/Thread.hpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 2,
-			"path" : "SFML/include/SFML/System/Thread.inl",
+			"path" : "SFML/include/SFML/Window/Joystick.hpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 2,
 			"compileGroupIndex" : 0,
-			"path" : "SFML/src/SFML/System/ThreadLocal.cpp",
+			"path" : "SFML/src/SFML/Window/Joystick.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 2,
-			"path" : "SFML/include/SFML/System/ThreadLocal.hpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 2,
-			"path" : "SFML/include/SFML/System/ThreadLocalPtr.hpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 2,
-			"path" : "SFML/include/SFML/System/ThreadLocalPtr.inl",
+			"path" : "SFML/src/SFML/Window/JoystickImpl.hpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 2,
 			"compileGroupIndex" : 0,
-			"path" : "SFML/src/SFML/System/Time.cpp",
+			"path" : "SFML/src/SFML/Window/JoystickManager.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 2,
-			"path" : "SFML/include/SFML/System/Time.hpp",
+			"path" : "SFML/src/SFML/Window/JoystickManager.hpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 2,
-			"path" : "SFML/include/SFML/System/Utf.hpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 2,
-			"path" : "SFML/include/SFML/System/Utf.inl",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 2,
-			"path" : "SFML/include/SFML/System/Vector2.hpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 2,
-			"path" : "SFML/include/SFML/System/Vector2.inl",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 2,
-			"path" : "SFML/include/SFML/System/Vector3.hpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 2,
-			"path" : "SFML/include/SFML/System/Vector3.inl",
+			"path" : "SFML/include/SFML/Window/Keyboard.hpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 2,
 			"compileGroupIndex" : 0,
-			"path" : "SFML/src/SFML/System/FileInputStream.cpp",
+			"path" : "SFML/src/SFML/Window/Keyboard.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 2,
-			"path" : "SFML/include/SFML/System/FileInputStream.hpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 2,
-			"compileGroupIndex" : 0,
-			"path" : "SFML/src/SFML/System/MemoryInputStream.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 2,
-			"path" : "SFML/include/SFML/System/MemoryInputStream.hpp",
+			"path" : "SFML/include/SFML/Window/Mouse.hpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 2,
 			"compileGroupIndex" : 0,
-			"path" : "SFML/src/SFML/System/Win32/ClockImpl.cpp",
+			"path" : "SFML/src/SFML/Window/Mouse.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "SFML/include/SFML/Window/Touch.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "SFML/src/SFML/Window/Touch.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "SFML/include/SFML/Window/Sensor.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "SFML/src/SFML/Window/Sensor.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "SFML/src/SFML/Window/SensorImpl.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "SFML/src/SFML/Window/SensorManager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "SFML/src/SFML/Window/SensorManager.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "SFML/src/SFML/Window/VideoMode.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "SFML/include/SFML/Window/VideoMode.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "SFML/src/SFML/Window/VideoModeImpl.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "SFML/src/SFML/Window/Window.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "SFML/include/SFML/Window/Window.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "SFML/include/SFML/Window/WindowHandle.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "SFML/src/SFML/Window/WindowImpl.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "SFML/src/SFML/Window/WindowImpl.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "SFML/include/SFML/Window/WindowStyle.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "SFML/src/SFML/Window/Win32/WglContext.cpp",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 2,
-			"path" : "SFML/src/SFML/System/Win32/ClockImpl.hpp",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 2,
-			"compileGroupIndex" : 0,
-			"path" : "SFML/src/SFML/System/Win32/MutexImpl.cpp",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 2,
-			"path" : "SFML/src/SFML/System/Win32/MutexImpl.hpp",
+			"path" : "SFML/src/SFML/Window/Win32/WglContext.hpp",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 2,
 			"compileGroupIndex" : 0,
-			"path" : "SFML/src/SFML/System/Win32/SleepImpl.cpp",
+			"path" : "SFML/src/SFML/Window/Win32/WglExtensions.cpp",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 2,
-			"path" : "SFML/src/SFML/System/Win32/SleepImpl.hpp",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 2,
-			"compileGroupIndex" : 0,
-			"path" : "SFML/src/SFML/System/Win32/ThreadImpl.cpp",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 2,
-			"path" : "SFML/src/SFML/System/Win32/ThreadImpl.hpp",
+			"path" : "SFML/src/SFML/Window/Win32/WglExtensions.hpp",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 2,
 			"compileGroupIndex" : 0,
-			"path" : "SFML/src/SFML/System/Win32/ThreadLocalImpl.cpp",
+			"path" : "SFML/src/SFML/Window/Win32/InputImpl.cpp",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 2,
-			"path" : "SFML/src/SFML/System/Win32/ThreadLocalImpl.hpp",
+			"path" : "SFML/src/SFML/Window/Win32/InputImpl.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "SFML/src/SFML/Window/Win32/JoystickImpl.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "SFML/src/SFML/Window/Win32/JoystickImpl.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "SFML/src/SFML/Window/Win32/SensorImpl.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "SFML/src/SFML/Window/Win32/SensorImpl.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "SFML/src/SFML/Window/Win32/VideoModeImpl.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "SFML/src/SFML/Window/Win32/WindowImplWin32.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "SFML/src/SFML/Window/Win32/WindowImplWin32.hpp",
 			"sourceGroupIndex" : 1
 		}
 	],
