@@ -66,10 +66,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird
+CMAKE_SOURCE_DIR = P:\C++\FlappyBird
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build
+CMAKE_BINARY_DIR = P:\C++\FlappyBird\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -144,14 +144,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\CMakeFiles C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\app\\CMakeFiles\progress.marks
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 app/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\CMakeFiles 0
+	cd /d P:\C++\FlappyBird\build && $(CMAKE_COMMAND) -E cmake_progress_start P:\C++\FlappyBird\build\CMakeFiles P:\C++\FlappyBird\build\app\\CMakeFiles\progress.marks
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 app/all
+	$(CMAKE_COMMAND) -E cmake_progress_start P:\C++\FlappyBird\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 app/clean
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 app/clean
 .PHONY : clean
 
 # The main clean target
@@ -161,22 +161,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 app/preinstall
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 app/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 app/preinstall
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 app/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d P:\C++\FlappyBird\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 app/CMakeFiles/FlappyBird.dir/rule:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 app/CMakeFiles/FlappyBird.dir/rule
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 app/CMakeFiles/FlappyBird.dir/rule
 .PHONY : app/CMakeFiles/FlappyBird.dir/rule
 
 # Convenience name for target.
@@ -186,7 +186,7 @@ FlappyBird: app/CMakeFiles/FlappyBird.dir/rule
 
 # fast build rule for target.
 FlappyBird/fast:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f app\CMakeFiles\FlappyBird.dir\build.make app/CMakeFiles/FlappyBird.dir/build
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f app\CMakeFiles\FlappyBird.dir\build.make app/CMakeFiles/FlappyBird.dir/build
 .PHONY : FlappyBird/fast
 
 src/Bird.obj: src/Bird.cpp.obj
@@ -195,7 +195,7 @@ src/Bird.obj: src/Bird.cpp.obj
 
 # target to build an object file
 src/Bird.cpp.obj:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f app\CMakeFiles\FlappyBird.dir\build.make app/CMakeFiles/FlappyBird.dir/src/Bird.cpp.obj
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f app\CMakeFiles\FlappyBird.dir\build.make app/CMakeFiles/FlappyBird.dir/src/Bird.cpp.obj
 .PHONY : src/Bird.cpp.obj
 
 src/Bird.i: src/Bird.cpp.i
@@ -204,7 +204,7 @@ src/Bird.i: src/Bird.cpp.i
 
 # target to preprocess a source file
 src/Bird.cpp.i:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f app\CMakeFiles\FlappyBird.dir\build.make app/CMakeFiles/FlappyBird.dir/src/Bird.cpp.i
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f app\CMakeFiles\FlappyBird.dir\build.make app/CMakeFiles/FlappyBird.dir/src/Bird.cpp.i
 .PHONY : src/Bird.cpp.i
 
 src/Bird.s: src/Bird.cpp.s
@@ -213,7 +213,7 @@ src/Bird.s: src/Bird.cpp.s
 
 # target to generate assembly for a file
 src/Bird.cpp.s:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f app\CMakeFiles\FlappyBird.dir\build.make app/CMakeFiles/FlappyBird.dir/src/Bird.cpp.s
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f app\CMakeFiles\FlappyBird.dir\build.make app/CMakeFiles/FlappyBird.dir/src/Bird.cpp.s
 .PHONY : src/Bird.cpp.s
 
 src/main.obj: src/main.cpp.obj
@@ -222,7 +222,7 @@ src/main.obj: src/main.cpp.obj
 
 # target to build an object file
 src/main.cpp.obj:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f app\CMakeFiles\FlappyBird.dir\build.make app/CMakeFiles/FlappyBird.dir/src/main.cpp.obj
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f app\CMakeFiles\FlappyBird.dir\build.make app/CMakeFiles/FlappyBird.dir/src/main.cpp.obj
 .PHONY : src/main.cpp.obj
 
 src/main.i: src/main.cpp.i
@@ -231,7 +231,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f app\CMakeFiles\FlappyBird.dir\build.make app/CMakeFiles/FlappyBird.dir/src/main.cpp.i
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f app\CMakeFiles\FlappyBird.dir\build.make app/CMakeFiles/FlappyBird.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -240,7 +240,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f app\CMakeFiles\FlappyBird.dir\build.make app/CMakeFiles/FlappyBird.dir/src/main.cpp.s
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f app\CMakeFiles\FlappyBird.dir\build.make app/CMakeFiles/FlappyBird.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -273,6 +273,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d P:\C++\FlappyBird\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

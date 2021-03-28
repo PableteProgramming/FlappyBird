@@ -125,19 +125,19 @@
 			[
 				{
 					"backtrace" : 8,
-					"path" : "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/include"
+					"path" : "P:/C++/FlappyBird/SFML/include"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src"
+					"path" : "P:/C++/FlappyBird/SFML/src"
 				},
 				{
 					"backtrace" : 11,
-					"path" : "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/extlibs/headers/AL"
+					"path" : "P:/C++/FlappyBird/SFML/extlibs/headers/AL"
 				},
 				{
 					"backtrace" : 12,
-					"path" : "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/extlibs/headers"
+					"path" : "P:/C++/FlappyBird/SFML/extlibs/headers"
 				}
 			],
 			"language" : "CXX",

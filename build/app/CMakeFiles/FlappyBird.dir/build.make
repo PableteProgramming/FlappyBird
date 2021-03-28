@@ -61,10 +61,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird
+CMAKE_SOURCE_DIR = P:\C++\FlappyBird
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build
+CMAKE_BINARY_DIR = P:\C++\FlappyBird\build
 
 # Include any dependencies generated for this target.
 include app/CMakeFiles/FlappyBird.dir/depend.make
@@ -78,30 +78,30 @@ include app/CMakeFiles/FlappyBird.dir/flags.make
 app/CMakeFiles/FlappyBird.dir/src/main.cpp.obj: app/CMakeFiles/FlappyBird.dir/flags.make
 app/CMakeFiles/FlappyBird.dir/src/main.cpp.obj: app/CMakeFiles/FlappyBird.dir/includes_CXX.rsp
 app/CMakeFiles/FlappyBird.dir/src/main.cpp.obj: ../app/src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object app/CMakeFiles/FlappyBird.dir/src/main.cpp.obj"
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\app && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlappyBird.dir\src\main.cpp.obj -c C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\app\src\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=P:\C++\FlappyBird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object app/CMakeFiles/FlappyBird.dir/src/main.cpp.obj"
+	cd /d P:\C++\FlappyBird\build\app && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlappyBird.dir\src\main.cpp.obj -c P:\C++\FlappyBird\app\src\main.cpp
 
 app/CMakeFiles/FlappyBird.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlappyBird.dir/src/main.cpp.i"
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\app && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\app\src\main.cpp > CMakeFiles\FlappyBird.dir\src\main.cpp.i
+	cd /d P:\C++\FlappyBird\build\app && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E P:\C++\FlappyBird\app\src\main.cpp > CMakeFiles\FlappyBird.dir\src\main.cpp.i
 
 app/CMakeFiles/FlappyBird.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlappyBird.dir/src/main.cpp.s"
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\app && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\app\src\main.cpp -o CMakeFiles\FlappyBird.dir\src\main.cpp.s
+	cd /d P:\C++\FlappyBird\build\app && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S P:\C++\FlappyBird\app\src\main.cpp -o CMakeFiles\FlappyBird.dir\src\main.cpp.s
 
 app/CMakeFiles/FlappyBird.dir/src/Bird.cpp.obj: app/CMakeFiles/FlappyBird.dir/flags.make
 app/CMakeFiles/FlappyBird.dir/src/Bird.cpp.obj: app/CMakeFiles/FlappyBird.dir/includes_CXX.rsp
 app/CMakeFiles/FlappyBird.dir/src/Bird.cpp.obj: ../app/src/Bird.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object app/CMakeFiles/FlappyBird.dir/src/Bird.cpp.obj"
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\app && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlappyBird.dir\src\Bird.cpp.obj -c C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\app\src\Bird.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=P:\C++\FlappyBird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object app/CMakeFiles/FlappyBird.dir/src/Bird.cpp.obj"
+	cd /d P:\C++\FlappyBird\build\app && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlappyBird.dir\src\Bird.cpp.obj -c P:\C++\FlappyBird\app\src\Bird.cpp
 
 app/CMakeFiles/FlappyBird.dir/src/Bird.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlappyBird.dir/src/Bird.cpp.i"
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\app && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\app\src\Bird.cpp > CMakeFiles\FlappyBird.dir\src\Bird.cpp.i
+	cd /d P:\C++\FlappyBird\build\app && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E P:\C++\FlappyBird\app\src\Bird.cpp > CMakeFiles\FlappyBird.dir\src\Bird.cpp.i
 
 app/CMakeFiles/FlappyBird.dir/src/Bird.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlappyBird.dir/src/Bird.cpp.s"
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\app && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\app\src\Bird.cpp -o CMakeFiles\FlappyBird.dir\src\Bird.cpp.s
+	cd /d P:\C++\FlappyBird\build\app && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S P:\C++\FlappyBird\app\src\Bird.cpp -o CMakeFiles\FlappyBird.dir\src\Bird.cpp.s
 
 # Object files for target FlappyBird
 FlappyBird_OBJECTS = \
@@ -122,9 +122,9 @@ app/FlappyBird.exe: ../SFML/extlibs/libs-mingw/x86/libjpeg.a
 app/FlappyBird.exe: app/CMakeFiles/FlappyBird.dir/linklibs.rsp
 app/FlappyBird.exe: app/CMakeFiles/FlappyBird.dir/objects1.rsp
 app/FlappyBird.exe: app/CMakeFiles/FlappyBird.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable FlappyBird.exe"
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\app && "C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/resources C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/build/app/resources
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\app && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\FlappyBird.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=P:\C++\FlappyBird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable FlappyBird.exe"
+	cd /d P:\C++\FlappyBird\build\app && "C:\Program Files\CMake\bin\cmake.exe" -E copy_directory P:/C++/FlappyBird/resources P:/C++/FlappyBird/build/app/resources
+	cd /d P:\C++\FlappyBird\build\app && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\FlappyBird.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 app/CMakeFiles/FlappyBird.dir/build: app/FlappyBird.exe
@@ -132,10 +132,10 @@ app/CMakeFiles/FlappyBird.dir/build: app/FlappyBird.exe
 .PHONY : app/CMakeFiles/FlappyBird.dir/build
 
 app/CMakeFiles/FlappyBird.dir/clean:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\app && $(CMAKE_COMMAND) -P CMakeFiles\FlappyBird.dir\cmake_clean.cmake
+	cd /d P:\C++\FlappyBird\build\app && $(CMAKE_COMMAND) -P CMakeFiles\FlappyBird.dir\cmake_clean.cmake
 .PHONY : app/CMakeFiles/FlappyBird.dir/clean
 
 app/CMakeFiles/FlappyBird.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\app C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\app C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\app\CMakeFiles\FlappyBird.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" P:\C++\FlappyBird P:\C++\FlappyBird\app P:\C++\FlappyBird\build P:\C++\FlappyBird\build\app P:\C++\FlappyBird\build\app\CMakeFiles\FlappyBird.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : app/CMakeFiles/FlappyBird.dir/depend
 

@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/app/src/Bird.cpp" "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/build/app/CMakeFiles/FlappyBird.dir/src/Bird.cpp.obj"
-  "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/app/src/main.cpp" "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/build/app/CMakeFiles/FlappyBird.dir/src/main.cpp.obj"
+  "P:/C++/FlappyBird/app/src/Bird.cpp" "P:/C++/FlappyBird/build/app/CMakeFiles/FlappyBird.dir/src/Bird.cpp.obj"
+  "P:/C++/FlappyBird/app/src/main.cpp" "P:/C++/FlappyBird/build/app/CMakeFiles/FlappyBird.dir/src/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -22,9 +22,9 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/build/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/DependInfo.cmake"
-  "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/build/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/DependInfo.cmake"
-  "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/build/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/DependInfo.cmake"
+  "P:/C++/FlappyBird/build/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/DependInfo.cmake"
+  "P:/C++/FlappyBird/build/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/DependInfo.cmake"
+  "P:/C++/FlappyBird/build/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

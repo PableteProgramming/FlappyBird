@@ -74,7 +74,7 @@ app/CMakeFiles/FlappyBird.dir/src/Bird.cpp.obj
  ../SFML/include/SFML/Window/WindowHandle.hpp
  ../SFML/include/SFML/Window/WindowStyle.hpp
  ../app/include/Bird.h
- C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/app/src/Bird.cpp
+ P:/C++/FlappyBird/app/src/Bird.cpp
 app/CMakeFiles/FlappyBird.dir/src/main.cpp.obj
  ../SFML/include/SFML/Config.hpp
  ../SFML/include/SFML/Graphics.hpp
@@ -149,4 +149,4 @@ app/CMakeFiles/FlappyBird.dir/src/main.cpp.obj
  ../SFML/include/SFML/Window/WindowStyle.hpp
  ../app/include/Bird.h
  ../app/include/main.h
- C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/app/src/main.cpp
+ P:/C++/FlappyBird/app/src/main.cpp

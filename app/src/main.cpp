@@ -39,9 +39,9 @@ int main()
 
 
         if(timepassed>=totaltimetopass){
-            player.Move(timepassed);
+            player.Move(timepassed, event);
             timepassed=0;
-            window.clear();
+            window.clear(sf::Color(0,255,255));
             player.Draw(window);
             window.display();
         }

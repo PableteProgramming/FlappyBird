@@ -6,10 +6,14 @@ Bird::Bird(sf::Sprite sprite, double x, double y)
     this->y = y;
     velocity=0;
     this->sprite = sprite;
+
+
+
+    this->sprite.scale(1.5 * this->sprite.getScale().x,1.5 * this->sprite.getScale().y);
 }
 
-void Bird::Move(double deltatime){
-    Jump();
+void Bird::Move(double deltatime, sf::Event& e){
+    Jump(e);
     double newy= (velocity*deltatime)+(0.5*gravity*deltatime*deltatime);
     velocity= newy/deltatime;
     y-=newy;
@@ -20,8 +24,15 @@ void Bird::Draw(sf::RenderWindow& window){
     window.draw(sprite);
 }
 
-void Bird::Jump(){
+void Bird::Jump(sf::Event& e){
     if(sf::Keyboard::isKeyPressed(sf::Keyboard::Space)){
-        velocity=200;
+        if (!isJumping)
+        {
+            velocity=300;
+            isJumping = true;
+        }
     }
+
+    if (e.type == sf::Event::KeyReleased && e.key.code == sf::Keyboard::Space)
+        isJumping = false;
 }

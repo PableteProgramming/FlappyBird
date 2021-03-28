@@ -105,11 +105,11 @@
 			[
 				{
 					"backtrace" : 8,
-					"path" : "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/app/include"
+					"path" : "P:/C++/FlappyBird/app/include"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/include"
+					"path" : "P:/C++/FlappyBird/SFML/include"
 				}
 			],
 			"language" : "CXX",

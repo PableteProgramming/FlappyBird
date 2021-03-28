@@ -87,12 +87,6 @@
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 114,
-				"parent" : 0
-			},
-			{
-				"command" : 5,
-				"file" : 1,
 				"line" : 128,
 				"parent" : 0
 			}
@@ -121,23 +115,23 @@
 			[
 				{
 					"backtrace" : 7,
-					"path" : "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/include"
+					"path" : "P:/C++/FlappyBird/SFML/include"
 				},
 				{
 					"backtrace" : 9,
-					"path" : "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src"
+					"path" : "P:/C++/FlappyBird/SFML/src"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/extlibs/headers/stb_image"
+					"path" : "P:/C++/FlappyBird/SFML/extlibs/headers/stb_image"
 				},
 				{
 					"backtrace" : 11,
-					"path" : "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/extlibs/headers/jpeg"
+					"path" : "P:/C++/FlappyBird/SFML/extlibs/headers/freetype2"
 				},
 				{
-					"backtrace" : 12,
-					"path" : "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/extlibs/headers/freetype2"
+					"backtrace" : 11,
+					"path" : "P:/C++/FlappyBird/SFML/extlibs/headers/jpeg"
 				}
 			],
 			"language" : "CXX",
@@ -198,23 +192,23 @@
 			[
 				{
 					"backtrace" : 7,
-					"path" : "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/include"
+					"path" : "P:/C++/FlappyBird/SFML/include"
 				},
 				{
 					"backtrace" : 9,
-					"path" : "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src"
+					"path" : "P:/C++/FlappyBird/SFML/src"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/extlibs/headers/stb_image"
+					"path" : "P:/C++/FlappyBird/SFML/extlibs/headers/stb_image"
 				},
 				{
 					"backtrace" : 11,
-					"path" : "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/extlibs/headers/jpeg"
+					"path" : "P:/C++/FlappyBird/SFML/extlibs/headers/freetype2"
 				},
 				{
-					"backtrace" : 12,
-					"path" : "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/extlibs/headers/freetype2"
+					"backtrace" : 11,
+					"path" : "P:/C++/FlappyBird/SFML/extlibs/headers/jpeg"
 				}
 			],
 			"language" : "CXX",

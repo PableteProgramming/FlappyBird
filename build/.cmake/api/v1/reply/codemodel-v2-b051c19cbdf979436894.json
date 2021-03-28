@@ -208,49 +208,49 @@
 				{
 					"directoryIndex" : 9,
 					"id" : "FlappyBird::@5f5a17c01335469806cb",
-					"jsonFile" : "target-FlappyBird-Debug-48856aa2959a88abd51c.json",
+					"jsonFile" : "target-FlappyBird-Debug-c2bf61bd55d072437561.json",
 					"name" : "FlappyBird",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 8,
 					"id" : "sfml-audio::@e9b1b5e9e6d4f50c4d9b",
-					"jsonFile" : "target-sfml-audio-Debug-2d65719d7d7ebbbae6f6.json",
+					"jsonFile" : "target-sfml-audio-Debug-fe58393cdd28cadda9f3.json",
 					"name" : "sfml-audio",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 7,
 					"id" : "sfml-graphics::@b5d161fc85c1c0dd9373",
-					"jsonFile" : "target-sfml-graphics-Debug-20f94a97a0a90d34e5f8.json",
+					"jsonFile" : "target-sfml-graphics-Debug-07f3ff63bfda4cfcbb07.json",
 					"name" : "sfml-graphics",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 4,
 					"id" : "sfml-main::@c6bfd72d0b1e1f066d8b",
-					"jsonFile" : "target-sfml-main-Debug-fbeea59118a25fd40ef7.json",
+					"jsonFile" : "target-sfml-main-Debug-1ce527ca3a6cf3a39c37.json",
 					"name" : "sfml-main",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 6,
 					"id" : "sfml-network::@5e97341f5bcfe5d6b699",
-					"jsonFile" : "target-sfml-network-Debug-121bb530f50f945ee01d.json",
+					"jsonFile" : "target-sfml-network-Debug-6ea4ced57a2cf7d996f4.json",
 					"name" : "sfml-network",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 3,
 					"id" : "sfml-system::@f1fd4bce49687b53ec1b",
-					"jsonFile" : "target-sfml-system-Debug-63bfa43337475950f47f.json",
+					"jsonFile" : "target-sfml-system-Debug-a41ce1c9b92326e2550b.json",
 					"name" : "sfml-system",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 5,
 					"id" : "sfml-window::@0daf25d7b5dd386fd904",
-					"jsonFile" : "target-sfml-window-Debug-646c9b55c11022d8c0c1.json",
+					"jsonFile" : "target-sfml-window-Debug-6073ea417036cb775185.json",
 					"name" : "sfml-window",
 					"projectIndex" : 1
 				}
@@ -260,8 +260,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/build",
-		"source" : "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird"
+		"build" : "P:/C++/FlappyBird/build",
+		"source" : "P:/C++/FlappyBird"
 	},
 	"version" : 
 	{

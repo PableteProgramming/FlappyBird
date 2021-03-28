@@ -7,9 +7,10 @@ private:
     double x, y;
     double velocity;
     sf::Sprite sprite;
-    void Jump();
+    void Jump(sf::Event&);
+    bool isJumping = false;
 public:
     Bird(sf::Sprite, double, double);
-    void Move(double);
+    void Move(double, sf::Event&);
     void Draw(sf::RenderWindow&);
 };

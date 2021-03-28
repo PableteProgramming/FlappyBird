@@ -13,7 +13,7 @@ SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Context.cpp.obj
  ../SFML/include/SFML/Window/Export.hpp
  ../SFML/include/SFML/Window/GlResource.hpp
  ../SFML/src/SFML/Window/GlContext.hpp
- C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Window/Context.cpp
+ P:/C++/FlappyBird/SFML/src/SFML/Window/Context.cpp
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlContext.cpp.obj
  ../SFML/include/SFML/Config.hpp
  ../SFML/include/SFML/OpenGL.hpp
@@ -44,7 +44,7 @@ SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlContext.cpp.obj
  ../SFML/src/SFML/Window/Win32/WglExtensions.hpp
  ../SFML/src/SFML/Window/iOS/EaglContext.hpp
  ../SFML/src/SFML/Window/iOS/ObjCType.hpp
- C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Window/GlContext.cpp
+ P:/C++/FlappyBird/SFML/src/SFML/Window/GlContext.cpp
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlResource.cpp.obj
  ../SFML/include/SFML/Config.hpp
  ../SFML/include/SFML/System/Export.hpp
@@ -54,7 +54,7 @@ SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlResource.cpp.obj
  ../SFML/include/SFML/Window/Export.hpp
  ../SFML/include/SFML/Window/GlResource.hpp
  ../SFML/src/SFML/Window/GlContext.hpp
- C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Window/GlResource.cpp
+ P:/C++/FlappyBird/SFML/src/SFML/Window/GlResource.cpp
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Joystick.cpp.obj
  ../SFML/include/SFML/Config.hpp
  ../SFML/include/SFML/System/Export.hpp
@@ -73,7 +73,7 @@ SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Joystick.cpp.obj
  ../SFML/src/SFML/Window/Unix/JoystickImpl.hpp
  ../SFML/src/SFML/Window/Win32/JoystickImpl.hpp
  ../SFML/src/SFML/Window/iOS/JoystickImpl.hpp
- C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Window/Joystick.cpp
+ P:/C++/FlappyBird/SFML/src/SFML/Window/Joystick.cpp
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/JoystickManager.cpp.obj
  ../SFML/include/SFML/Config.hpp
  ../SFML/include/SFML/System/Export.hpp
@@ -92,7 +92,7 @@ SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/JoystickManager.cpp.obj
  ../SFML/src/SFML/Window/Unix/JoystickImpl.hpp
  ../SFML/src/SFML/Window/Win32/JoystickImpl.hpp
  ../SFML/src/SFML/Window/iOS/JoystickImpl.hpp
- C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Window/JoystickManager.cpp
+ P:/C++/FlappyBird/SFML/src/SFML/Window/JoystickManager.cpp
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Keyboard.cpp.obj
  ../SFML/include/SFML/Config.hpp
  ../SFML/include/SFML/System/Vector2.hpp
@@ -106,7 +106,7 @@ SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Keyboard.cpp.obj
  ../SFML/src/SFML/Window/Unix/InputImpl.hpp
  ../SFML/src/SFML/Window/Win32/InputImpl.hpp
  ../SFML/src/SFML/Window/iOS/InputImpl.hpp
- C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Window/Keyboard.cpp
+ P:/C++/FlappyBird/SFML/src/SFML/Window/Keyboard.cpp
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Mouse.cpp.obj
  ../SFML/include/SFML/Config.hpp
  ../SFML/include/SFML/System/Clock.hpp
@@ -134,7 +134,7 @@ SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Mouse.cpp.obj
  ../SFML/src/SFML/Window/Unix/InputImpl.hpp
  ../SFML/src/SFML/Window/Win32/InputImpl.hpp
  ../SFML/src/SFML/Window/iOS/InputImpl.hpp
- C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Window/Mouse.cpp
+ P:/C++/FlappyBird/SFML/src/SFML/Window/Mouse.cpp
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Sensor.cpp.obj
  ../SFML/include/SFML/Config.hpp
  ../SFML/include/SFML/System/Export.hpp
@@ -151,7 +151,7 @@ SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Sensor.cpp.obj
  ../SFML/src/SFML/Window/Unix/SensorImpl.hpp
  ../SFML/src/SFML/Window/Win32/SensorImpl.hpp
  ../SFML/src/SFML/Window/iOS/SensorImpl.hpp
- C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Window/Sensor.cpp
+ P:/C++/FlappyBird/SFML/src/SFML/Window/Sensor.cpp
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/SensorManager.cpp.obj
  ../SFML/include/SFML/Config.hpp
  ../SFML/include/SFML/System/Err.hpp
@@ -169,7 +169,7 @@ SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/SensorManager.cpp.obj
  ../SFML/src/SFML/Window/Unix/SensorImpl.hpp
  ../SFML/src/SFML/Window/Win32/SensorImpl.hpp
  ../SFML/src/SFML/Window/iOS/SensorImpl.hpp
- C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Window/SensorManager.cpp
+ P:/C++/FlappyBird/SFML/src/SFML/Window/SensorManager.cpp
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Touch.cpp.obj
  ../SFML/include/SFML/Config.hpp
  ../SFML/include/SFML/System/Vector2.hpp
@@ -184,13 +184,13 @@ SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Touch.cpp.obj
  ../SFML/src/SFML/Window/Unix/InputImpl.hpp
  ../SFML/src/SFML/Window/Win32/InputImpl.hpp
  ../SFML/src/SFML/Window/iOS/InputImpl.hpp
- C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Window/Touch.cpp
+ P:/C++/FlappyBird/SFML/src/SFML/Window/Touch.cpp
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/VideoMode.cpp.obj
  ../SFML/include/SFML/Config.hpp
  ../SFML/include/SFML/Window/Export.hpp
  ../SFML/include/SFML/Window/VideoMode.hpp
  ../SFML/src/SFML/Window/VideoModeImpl.hpp
- C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Window/VideoMode.cpp
+ P:/C++/FlappyBird/SFML/src/SFML/Window/VideoMode.cpp
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/InputImpl.cpp.obj
  ../SFML/include/SFML/Config.hpp
  ../SFML/include/SFML/System/Clock.hpp
@@ -213,7 +213,7 @@ SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/InputImpl.cpp.obj
  ../SFML/include/SFML/Window/WindowHandle.hpp
  ../SFML/include/SFML/Window/WindowStyle.hpp
  ../SFML/src/SFML/Window/Win32/InputImpl.hpp
- C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Window/Win32/InputImpl.cpp
+ P:/C++/FlappyBird/SFML/src/SFML/Window/Win32/InputImpl.cpp
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/JoystickImpl.cpp.obj
  ../SFML/include/SFML/Config.hpp
  ../SFML/include/SFML/System/Clock.hpp
@@ -233,7 +233,7 @@ SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/JoystickImpl.cpp.obj
  ../SFML/src/SFML/Window/Unix/JoystickImpl.hpp
  ../SFML/src/SFML/Window/Win32/JoystickImpl.hpp
  ../SFML/src/SFML/Window/iOS/JoystickImpl.hpp
- C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Window/Win32/JoystickImpl.cpp
+ P:/C++/FlappyBird/SFML/src/SFML/Window/Win32/JoystickImpl.cpp
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/SensorImpl.cpp.obj
  ../SFML/include/SFML/Config.hpp
  ../SFML/include/SFML/System/Export.hpp
@@ -248,13 +248,13 @@ SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/SensorImpl.cpp.obj
  ../SFML/src/SFML/Window/Unix/SensorImpl.hpp
  ../SFML/src/SFML/Window/Win32/SensorImpl.hpp
  ../SFML/src/SFML/Window/iOS/SensorImpl.hpp
- C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Window/Win32/SensorImpl.cpp
+ P:/C++/FlappyBird/SFML/src/SFML/Window/Win32/SensorImpl.cpp
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/VideoModeImpl.cpp.obj
  ../SFML/include/SFML/Config.hpp
  ../SFML/include/SFML/Window/Export.hpp
  ../SFML/include/SFML/Window/VideoMode.hpp
  ../SFML/src/SFML/Window/VideoModeImpl.hpp
- C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Window/Win32/VideoModeImpl.cpp
+ P:/C++/FlappyBird/SFML/src/SFML/Window/Win32/VideoModeImpl.cpp
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WglContext.cpp.obj
  ../SFML/include/SFML/Config.hpp
  ../SFML/include/SFML/OpenGL.hpp
@@ -303,7 +303,7 @@ SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WglContext.cpp.obj
  ../SFML/src/SFML/Window/WindowImpl.hpp
  ../SFML/src/SFML/Window/iOS/JoystickImpl.hpp
  ../SFML/src/SFML/Window/iOS/SensorImpl.hpp
- C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Window/Win32/WglContext.cpp
+ P:/C++/FlappyBird/SFML/src/SFML/Window/Win32/WglContext.cpp
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WglExtensions.cpp.obj
  ../SFML/include/SFML/Config.hpp
  ../SFML/include/SFML/System/Export.hpp
@@ -313,7 +313,7 @@ SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WglExtensions.cpp.obj
  ../SFML/include/SFML/Window/Export.hpp
  ../SFML/include/SFML/Window/GlResource.hpp
  ../SFML/src/SFML/Window/Win32/WglExtensions.hpp
- C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Window/Win32/WglExtensions.cpp
+ P:/C++/FlappyBird/SFML/src/SFML/Window/Win32/WglExtensions.cpp
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WindowImplWin32.cpp.obj
  ../SFML/include/SFML/Config.hpp
  ../SFML/include/SFML/System/Err.hpp
@@ -353,7 +353,7 @@ SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WindowImplWin32.cpp.obj
  ../SFML/src/SFML/Window/WindowImpl.hpp
  ../SFML/src/SFML/Window/iOS/JoystickImpl.hpp
  ../SFML/src/SFML/Window/iOS/SensorImpl.hpp
- C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Window/Win32/WindowImplWin32.cpp
+ P:/C++/FlappyBird/SFML/src/SFML/Window/Win32/WindowImplWin32.cpp
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Window.cpp.obj
  ../SFML/include/SFML/Config.hpp
  ../SFML/include/SFML/System/Clock.hpp
@@ -398,7 +398,7 @@ SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Window.cpp.obj
  ../SFML/src/SFML/Window/WindowImpl.hpp
  ../SFML/src/SFML/Window/iOS/JoystickImpl.hpp
  ../SFML/src/SFML/Window/iOS/SensorImpl.hpp
- C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Window/Window.cpp
+ P:/C++/FlappyBird/SFML/src/SFML/Window/Window.cpp
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowImpl.cpp.obj
  ../SFML/include/SFML/Config.hpp
  ../SFML/include/SFML/OpenGL.hpp
@@ -453,4 +453,4 @@ SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowImpl.cpp.obj
  ../SFML/src/SFML/Window/iOS/ObjCType.hpp
  ../SFML/src/SFML/Window/iOS/SensorImpl.hpp
  ../SFML/src/SFML/Window/iOS/WindowImplUIKit.hpp
- C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Window/WindowImpl.cpp
+ P:/C++/FlappyBird/SFML/src/SFML/Window/WindowImpl.cpp
