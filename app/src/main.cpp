@@ -15,7 +15,7 @@ int main()
 
 
     Bird player(bird, 0, 0);
-    
+    Game game;
 
     sf::Clock clock;
     double framerate=120;
@@ -40,6 +40,8 @@ int main()
 
         if(timepassed>=totaltimetopass){
             player.Move(timepassed, event);
+            if (player.isDead())
+                running = false;
             timepassed=0;
             window.clear(sf::Color(0,255,255));
             player.Draw(window);

@@ -6,10 +6,10 @@ Bird::Bird(sf::Sprite sprite, double x, double y)
     this->y = y;
     velocity=0;
     this->sprite = sprite;
-
-
-
     this->sprite.scale(1.5 * this->sprite.getScale().x,1.5 * this->sprite.getScale().y);
+
+    width = this->sprite.getScale().x;
+    height = this->sprite.getScale().y;
 }
 
 void Bird::Move(double deltatime, sf::Event& e){
@@ -17,6 +17,10 @@ void Bird::Move(double deltatime, sf::Event& e){
     double newy= (velocity*deltatime)+(0.5*gravity*deltatime*deltatime);
     velocity= newy/deltatime;
     y-=newy;
+
+
+    if (y + height > window_height)
+        dead = true;
 }
 
 void Bird::Draw(sf::RenderWindow& window){

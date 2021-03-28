@@ -644,7 +644,19 @@ SFML/Config.hpp
 SFML/Graphics.hpp
 -
 
+../app/include/main.h
+SFML/Graphics.hpp
+-
+iostream
+-
+Bird.h
+-
+
 P:/C++/FlappyBird/app/src/Bird.cpp
 Bird.h
+-
+
+P:/C++/FlappyBird/app/src/main.cpp
+main.h
 -
 
