@@ -1,1 +1,1 @@
--IC:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/include -IC:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src -IC:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/extlibs/headers/AL -IC:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/extlibs/headers
+-IP:/C++/FlappyBird/SFML/include -IP:/C++/FlappyBird/SFML/src -IP:/C++/FlappyBird/SFML/extlibs/headers/AL -IP:/C++/FlappyBird/SFML/extlibs/headers

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Main/MainWin32.cpp" "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/build/SFML/src/SFML/Main/CMakeFiles/sfml-main.dir/MainWin32.cpp.obj"
+  "P:/C++/FlappyBird/SFML/src/SFML/Main/MainWin32.cpp" "P:/C++/FlappyBird/build/SFML/src/SFML/Main/CMakeFiles/sfml-main.dir/MainWin32.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

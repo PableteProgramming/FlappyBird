@@ -206,7 +206,7 @@ SFML/System/NonCopyable.hpp
 windows.h
 -
 
-C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/System/Clock.cpp
+P:/C++/FlappyBird/SFML/src/SFML/System/Clock.cpp
 SFML/System/Clock.hpp
 -
 SFML/System/Win32/ClockImpl.hpp
@@ -214,7 +214,7 @@ SFML/System/Win32/ClockImpl.hpp
 SFML/System/Unix/ClockImpl.hpp
 -
 
-C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/System/Err.cpp
+P:/C++/FlappyBird/SFML/src/SFML/System/Err.cpp
 SFML/System/Err.hpp
 -
 streambuf
@@ -222,25 +222,25 @@ streambuf
 cstdio
 -
 
-C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/System/FileInputStream.cpp
+P:/C++/FlappyBird/SFML/src/SFML/System/FileInputStream.cpp
 SFML/System/FileInputStream.hpp
 -
 SFML/System/Android/ResourceStream.hpp
 -
 
-C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/System/Lock.cpp
+P:/C++/FlappyBird/SFML/src/SFML/System/Lock.cpp
 SFML/System/Lock.hpp
 -
 SFML/System/Mutex.hpp
 -
 
-C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/System/MemoryInputStream.cpp
+P:/C++/FlappyBird/SFML/src/SFML/System/MemoryInputStream.cpp
 SFML/System/MemoryInputStream.hpp
 -
 cstring
 -
 
-C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/System/Mutex.cpp
+P:/C++/FlappyBird/SFML/src/SFML/System/Mutex.cpp
 SFML/System/Mutex.hpp
 -
 SFML/System/Win32/MutexImpl.hpp
@@ -248,7 +248,7 @@ SFML/System/Win32/MutexImpl.hpp
 SFML/System/Unix/MutexImpl.hpp
 -
 
-C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/System/Sleep.cpp
+P:/C++/FlappyBird/SFML/src/SFML/System/Sleep.cpp
 SFML/System/Sleep.hpp
 -
 SFML/System/Win32/SleepImpl.hpp
@@ -256,7 +256,7 @@ SFML/System/Win32/SleepImpl.hpp
 SFML/System/Unix/SleepImpl.hpp
 -
 
-C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/System/String.cpp
+P:/C++/FlappyBird/SFML/src/SFML/System/String.cpp
 SFML/System/String.hpp
 -
 SFML/System/Utf.hpp
@@ -266,7 +266,7 @@ iterator
 cstring
 -
 
-C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/System/Thread.cpp
+P:/C++/FlappyBird/SFML/src/SFML/System/Thread.cpp
 SFML/System/Thread.hpp
 -
 SFML/System/Win32/ThreadImpl.hpp
@@ -274,7 +274,7 @@ SFML/System/Win32/ThreadImpl.hpp
 SFML/System/Unix/ThreadImpl.hpp
 -
 
-C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/System/ThreadLocal.cpp
+P:/C++/FlappyBird/SFML/src/SFML/System/ThreadLocal.cpp
 SFML/System/ThreadLocal.hpp
 -
 SFML/System/Win32/ThreadLocalImpl.hpp
@@ -282,11 +282,11 @@ SFML/System/Win32/ThreadLocalImpl.hpp
 SFML/System/Unix/ThreadLocalImpl.hpp
 -
 
-C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/System/Time.cpp
+P:/C++/FlappyBird/SFML/src/SFML/System/Time.cpp
 SFML/System/Time.hpp
 -
 
-C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/System/Win32/ClockImpl.cpp
+P:/C++/FlappyBird/SFML/src/SFML/System/Win32/ClockImpl.cpp
 SFML/System/Win32/ClockImpl.hpp
 -
 SFML/System/Mutex.hpp
@@ -296,17 +296,17 @@ SFML/System/Lock.hpp
 windows.h
 -
 
-C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/System/Win32/MutexImpl.cpp
+P:/C++/FlappyBird/SFML/src/SFML/System/Win32/MutexImpl.cpp
 SFML/System/Win32/MutexImpl.hpp
 -
 
-C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/System/Win32/SleepImpl.cpp
+P:/C++/FlappyBird/SFML/src/SFML/System/Win32/SleepImpl.cpp
 SFML/System/Win32/SleepImpl.hpp
 -
 windows.h
 -
 
-C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/System/Win32/ThreadImpl.cpp
+P:/C++/FlappyBird/SFML/src/SFML/System/Win32/ThreadImpl.cpp
 SFML/System/Win32/ThreadImpl.hpp
 -
 SFML/System/Thread.hpp
@@ -318,7 +318,7 @@ cassert
 process.h
 -
 
-C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/System/Win32/ThreadLocalImpl.cpp
+P:/C++/FlappyBird/SFML/src/SFML/System/Win32/ThreadLocalImpl.cpp
 SFML/System/Win32/ThreadLocalImpl.hpp
 -
 

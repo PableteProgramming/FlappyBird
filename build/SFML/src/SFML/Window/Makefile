@@ -66,10 +66,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird
+CMAKE_SOURCE_DIR = P:\C++\FlappyBird
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build
+CMAKE_BINARY_DIR = P:\C++\FlappyBird\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -144,14 +144,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\CMakeFiles C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\SFML\src\SFML\Window\\CMakeFiles\progress.marks
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SFML/src/SFML/Window/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build\CMakeFiles 0
+	cd /d P:\C++\FlappyBird\build && $(CMAKE_COMMAND) -E cmake_progress_start P:\C++\FlappyBird\build\CMakeFiles P:\C++\FlappyBird\build\SFML\src\SFML\Window\\CMakeFiles\progress.marks
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SFML/src/SFML/Window/all
+	$(CMAKE_COMMAND) -E cmake_progress_start P:\C++\FlappyBird\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SFML/src/SFML/Window/clean
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SFML/src/SFML/Window/clean
 .PHONY : clean
 
 # The main clean target
@@ -161,22 +161,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SFML/src/SFML/Window/preinstall
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SFML/src/SFML/Window/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SFML/src/SFML/Window/preinstall
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SFML/src/SFML/Window/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d P:\C++\FlappyBird\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/rule:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/rule
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/rule
 .PHONY : SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/rule
 
 # Convenience name for target.
@@ -186,7 +186,7 @@ sfml-window: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/rule
 
 # fast build rule for target.
 sfml-window/fast:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/build
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/build
 .PHONY : sfml-window/fast
 
 Context.obj: Context.cpp.obj
@@ -195,7 +195,7 @@ Context.obj: Context.cpp.obj
 
 # target to build an object file
 Context.cpp.obj:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Context.cpp.obj
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Context.cpp.obj
 .PHONY : Context.cpp.obj
 
 Context.i: Context.cpp.i
@@ -204,7 +204,7 @@ Context.i: Context.cpp.i
 
 # target to preprocess a source file
 Context.cpp.i:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Context.cpp.i
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Context.cpp.i
 .PHONY : Context.cpp.i
 
 Context.s: Context.cpp.s
@@ -213,7 +213,7 @@ Context.s: Context.cpp.s
 
 # target to generate assembly for a file
 Context.cpp.s:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Context.cpp.s
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Context.cpp.s
 .PHONY : Context.cpp.s
 
 GlContext.obj: GlContext.cpp.obj
@@ -222,7 +222,7 @@ GlContext.obj: GlContext.cpp.obj
 
 # target to build an object file
 GlContext.cpp.obj:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlContext.cpp.obj
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlContext.cpp.obj
 .PHONY : GlContext.cpp.obj
 
 GlContext.i: GlContext.cpp.i
@@ -231,7 +231,7 @@ GlContext.i: GlContext.cpp.i
 
 # target to preprocess a source file
 GlContext.cpp.i:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlContext.cpp.i
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlContext.cpp.i
 .PHONY : GlContext.cpp.i
 
 GlContext.s: GlContext.cpp.s
@@ -240,7 +240,7 @@ GlContext.s: GlContext.cpp.s
 
 # target to generate assembly for a file
 GlContext.cpp.s:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlContext.cpp.s
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlContext.cpp.s
 .PHONY : GlContext.cpp.s
 
 GlResource.obj: GlResource.cpp.obj
@@ -249,7 +249,7 @@ GlResource.obj: GlResource.cpp.obj
 
 # target to build an object file
 GlResource.cpp.obj:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlResource.cpp.obj
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlResource.cpp.obj
 .PHONY : GlResource.cpp.obj
 
 GlResource.i: GlResource.cpp.i
@@ -258,7 +258,7 @@ GlResource.i: GlResource.cpp.i
 
 # target to preprocess a source file
 GlResource.cpp.i:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlResource.cpp.i
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlResource.cpp.i
 .PHONY : GlResource.cpp.i
 
 GlResource.s: GlResource.cpp.s
@@ -267,7 +267,7 @@ GlResource.s: GlResource.cpp.s
 
 # target to generate assembly for a file
 GlResource.cpp.s:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlResource.cpp.s
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlResource.cpp.s
 .PHONY : GlResource.cpp.s
 
 Joystick.obj: Joystick.cpp.obj
@@ -276,7 +276,7 @@ Joystick.obj: Joystick.cpp.obj
 
 # target to build an object file
 Joystick.cpp.obj:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Joystick.cpp.obj
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Joystick.cpp.obj
 .PHONY : Joystick.cpp.obj
 
 Joystick.i: Joystick.cpp.i
@@ -285,7 +285,7 @@ Joystick.i: Joystick.cpp.i
 
 # target to preprocess a source file
 Joystick.cpp.i:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Joystick.cpp.i
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Joystick.cpp.i
 .PHONY : Joystick.cpp.i
 
 Joystick.s: Joystick.cpp.s
@@ -294,7 +294,7 @@ Joystick.s: Joystick.cpp.s
 
 # target to generate assembly for a file
 Joystick.cpp.s:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Joystick.cpp.s
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Joystick.cpp.s
 .PHONY : Joystick.cpp.s
 
 JoystickManager.obj: JoystickManager.cpp.obj
@@ -303,7 +303,7 @@ JoystickManager.obj: JoystickManager.cpp.obj
 
 # target to build an object file
 JoystickManager.cpp.obj:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/JoystickManager.cpp.obj
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/JoystickManager.cpp.obj
 .PHONY : JoystickManager.cpp.obj
 
 JoystickManager.i: JoystickManager.cpp.i
@@ -312,7 +312,7 @@ JoystickManager.i: JoystickManager.cpp.i
 
 # target to preprocess a source file
 JoystickManager.cpp.i:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/JoystickManager.cpp.i
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/JoystickManager.cpp.i
 .PHONY : JoystickManager.cpp.i
 
 JoystickManager.s: JoystickManager.cpp.s
@@ -321,7 +321,7 @@ JoystickManager.s: JoystickManager.cpp.s
 
 # target to generate assembly for a file
 JoystickManager.cpp.s:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/JoystickManager.cpp.s
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/JoystickManager.cpp.s
 .PHONY : JoystickManager.cpp.s
 
 Keyboard.obj: Keyboard.cpp.obj
@@ -330,7 +330,7 @@ Keyboard.obj: Keyboard.cpp.obj
 
 # target to build an object file
 Keyboard.cpp.obj:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Keyboard.cpp.obj
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Keyboard.cpp.obj
 .PHONY : Keyboard.cpp.obj
 
 Keyboard.i: Keyboard.cpp.i
@@ -339,7 +339,7 @@ Keyboard.i: Keyboard.cpp.i
 
 # target to preprocess a source file
 Keyboard.cpp.i:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Keyboard.cpp.i
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Keyboard.cpp.i
 .PHONY : Keyboard.cpp.i
 
 Keyboard.s: Keyboard.cpp.s
@@ -348,7 +348,7 @@ Keyboard.s: Keyboard.cpp.s
 
 # target to generate assembly for a file
 Keyboard.cpp.s:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Keyboard.cpp.s
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Keyboard.cpp.s
 .PHONY : Keyboard.cpp.s
 
 Mouse.obj: Mouse.cpp.obj
@@ -357,7 +357,7 @@ Mouse.obj: Mouse.cpp.obj
 
 # target to build an object file
 Mouse.cpp.obj:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Mouse.cpp.obj
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Mouse.cpp.obj
 .PHONY : Mouse.cpp.obj
 
 Mouse.i: Mouse.cpp.i
@@ -366,7 +366,7 @@ Mouse.i: Mouse.cpp.i
 
 # target to preprocess a source file
 Mouse.cpp.i:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Mouse.cpp.i
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Mouse.cpp.i
 .PHONY : Mouse.cpp.i
 
 Mouse.s: Mouse.cpp.s
@@ -375,7 +375,7 @@ Mouse.s: Mouse.cpp.s
 
 # target to generate assembly for a file
 Mouse.cpp.s:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Mouse.cpp.s
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Mouse.cpp.s
 .PHONY : Mouse.cpp.s
 
 Sensor.obj: Sensor.cpp.obj
@@ -384,7 +384,7 @@ Sensor.obj: Sensor.cpp.obj
 
 # target to build an object file
 Sensor.cpp.obj:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Sensor.cpp.obj
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Sensor.cpp.obj
 .PHONY : Sensor.cpp.obj
 
 Sensor.i: Sensor.cpp.i
@@ -393,7 +393,7 @@ Sensor.i: Sensor.cpp.i
 
 # target to preprocess a source file
 Sensor.cpp.i:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Sensor.cpp.i
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Sensor.cpp.i
 .PHONY : Sensor.cpp.i
 
 Sensor.s: Sensor.cpp.s
@@ -402,7 +402,7 @@ Sensor.s: Sensor.cpp.s
 
 # target to generate assembly for a file
 Sensor.cpp.s:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Sensor.cpp.s
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Sensor.cpp.s
 .PHONY : Sensor.cpp.s
 
 SensorManager.obj: SensorManager.cpp.obj
@@ -411,7 +411,7 @@ SensorManager.obj: SensorManager.cpp.obj
 
 # target to build an object file
 SensorManager.cpp.obj:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/SensorManager.cpp.obj
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/SensorManager.cpp.obj
 .PHONY : SensorManager.cpp.obj
 
 SensorManager.i: SensorManager.cpp.i
@@ -420,7 +420,7 @@ SensorManager.i: SensorManager.cpp.i
 
 # target to preprocess a source file
 SensorManager.cpp.i:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/SensorManager.cpp.i
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/SensorManager.cpp.i
 .PHONY : SensorManager.cpp.i
 
 SensorManager.s: SensorManager.cpp.s
@@ -429,7 +429,7 @@ SensorManager.s: SensorManager.cpp.s
 
 # target to generate assembly for a file
 SensorManager.cpp.s:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/SensorManager.cpp.s
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/SensorManager.cpp.s
 .PHONY : SensorManager.cpp.s
 
 Touch.obj: Touch.cpp.obj
@@ -438,7 +438,7 @@ Touch.obj: Touch.cpp.obj
 
 # target to build an object file
 Touch.cpp.obj:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Touch.cpp.obj
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Touch.cpp.obj
 .PHONY : Touch.cpp.obj
 
 Touch.i: Touch.cpp.i
@@ -447,7 +447,7 @@ Touch.i: Touch.cpp.i
 
 # target to preprocess a source file
 Touch.cpp.i:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Touch.cpp.i
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Touch.cpp.i
 .PHONY : Touch.cpp.i
 
 Touch.s: Touch.cpp.s
@@ -456,7 +456,7 @@ Touch.s: Touch.cpp.s
 
 # target to generate assembly for a file
 Touch.cpp.s:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Touch.cpp.s
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Touch.cpp.s
 .PHONY : Touch.cpp.s
 
 VideoMode.obj: VideoMode.cpp.obj
@@ -465,7 +465,7 @@ VideoMode.obj: VideoMode.cpp.obj
 
 # target to build an object file
 VideoMode.cpp.obj:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/VideoMode.cpp.obj
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/VideoMode.cpp.obj
 .PHONY : VideoMode.cpp.obj
 
 VideoMode.i: VideoMode.cpp.i
@@ -474,7 +474,7 @@ VideoMode.i: VideoMode.cpp.i
 
 # target to preprocess a source file
 VideoMode.cpp.i:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/VideoMode.cpp.i
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/VideoMode.cpp.i
 .PHONY : VideoMode.cpp.i
 
 VideoMode.s: VideoMode.cpp.s
@@ -483,7 +483,7 @@ VideoMode.s: VideoMode.cpp.s
 
 # target to generate assembly for a file
 VideoMode.cpp.s:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/VideoMode.cpp.s
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/VideoMode.cpp.s
 .PHONY : VideoMode.cpp.s
 
 Win32/InputImpl.obj: Win32/InputImpl.cpp.obj
@@ -492,7 +492,7 @@ Win32/InputImpl.obj: Win32/InputImpl.cpp.obj
 
 # target to build an object file
 Win32/InputImpl.cpp.obj:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/InputImpl.cpp.obj
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/InputImpl.cpp.obj
 .PHONY : Win32/InputImpl.cpp.obj
 
 Win32/InputImpl.i: Win32/InputImpl.cpp.i
@@ -501,7 +501,7 @@ Win32/InputImpl.i: Win32/InputImpl.cpp.i
 
 # target to preprocess a source file
 Win32/InputImpl.cpp.i:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/InputImpl.cpp.i
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/InputImpl.cpp.i
 .PHONY : Win32/InputImpl.cpp.i
 
 Win32/InputImpl.s: Win32/InputImpl.cpp.s
@@ -510,7 +510,7 @@ Win32/InputImpl.s: Win32/InputImpl.cpp.s
 
 # target to generate assembly for a file
 Win32/InputImpl.cpp.s:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/InputImpl.cpp.s
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/InputImpl.cpp.s
 .PHONY : Win32/InputImpl.cpp.s
 
 Win32/JoystickImpl.obj: Win32/JoystickImpl.cpp.obj
@@ -519,7 +519,7 @@ Win32/JoystickImpl.obj: Win32/JoystickImpl.cpp.obj
 
 # target to build an object file
 Win32/JoystickImpl.cpp.obj:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/JoystickImpl.cpp.obj
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/JoystickImpl.cpp.obj
 .PHONY : Win32/JoystickImpl.cpp.obj
 
 Win32/JoystickImpl.i: Win32/JoystickImpl.cpp.i
@@ -528,7 +528,7 @@ Win32/JoystickImpl.i: Win32/JoystickImpl.cpp.i
 
 # target to preprocess a source file
 Win32/JoystickImpl.cpp.i:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/JoystickImpl.cpp.i
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/JoystickImpl.cpp.i
 .PHONY : Win32/JoystickImpl.cpp.i
 
 Win32/JoystickImpl.s: Win32/JoystickImpl.cpp.s
@@ -537,7 +537,7 @@ Win32/JoystickImpl.s: Win32/JoystickImpl.cpp.s
 
 # target to generate assembly for a file
 Win32/JoystickImpl.cpp.s:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/JoystickImpl.cpp.s
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/JoystickImpl.cpp.s
 .PHONY : Win32/JoystickImpl.cpp.s
 
 Win32/SensorImpl.obj: Win32/SensorImpl.cpp.obj
@@ -546,7 +546,7 @@ Win32/SensorImpl.obj: Win32/SensorImpl.cpp.obj
 
 # target to build an object file
 Win32/SensorImpl.cpp.obj:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/SensorImpl.cpp.obj
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/SensorImpl.cpp.obj
 .PHONY : Win32/SensorImpl.cpp.obj
 
 Win32/SensorImpl.i: Win32/SensorImpl.cpp.i
@@ -555,7 +555,7 @@ Win32/SensorImpl.i: Win32/SensorImpl.cpp.i
 
 # target to preprocess a source file
 Win32/SensorImpl.cpp.i:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/SensorImpl.cpp.i
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/SensorImpl.cpp.i
 .PHONY : Win32/SensorImpl.cpp.i
 
 Win32/SensorImpl.s: Win32/SensorImpl.cpp.s
@@ -564,7 +564,7 @@ Win32/SensorImpl.s: Win32/SensorImpl.cpp.s
 
 # target to generate assembly for a file
 Win32/SensorImpl.cpp.s:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/SensorImpl.cpp.s
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/SensorImpl.cpp.s
 .PHONY : Win32/SensorImpl.cpp.s
 
 Win32/VideoModeImpl.obj: Win32/VideoModeImpl.cpp.obj
@@ -573,7 +573,7 @@ Win32/VideoModeImpl.obj: Win32/VideoModeImpl.cpp.obj
 
 # target to build an object file
 Win32/VideoModeImpl.cpp.obj:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/VideoModeImpl.cpp.obj
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/VideoModeImpl.cpp.obj
 .PHONY : Win32/VideoModeImpl.cpp.obj
 
 Win32/VideoModeImpl.i: Win32/VideoModeImpl.cpp.i
@@ -582,7 +582,7 @@ Win32/VideoModeImpl.i: Win32/VideoModeImpl.cpp.i
 
 # target to preprocess a source file
 Win32/VideoModeImpl.cpp.i:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/VideoModeImpl.cpp.i
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/VideoModeImpl.cpp.i
 .PHONY : Win32/VideoModeImpl.cpp.i
 
 Win32/VideoModeImpl.s: Win32/VideoModeImpl.cpp.s
@@ -591,7 +591,7 @@ Win32/VideoModeImpl.s: Win32/VideoModeImpl.cpp.s
 
 # target to generate assembly for a file
 Win32/VideoModeImpl.cpp.s:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/VideoModeImpl.cpp.s
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/VideoModeImpl.cpp.s
 .PHONY : Win32/VideoModeImpl.cpp.s
 
 Win32/WglContext.obj: Win32/WglContext.cpp.obj
@@ -600,7 +600,7 @@ Win32/WglContext.obj: Win32/WglContext.cpp.obj
 
 # target to build an object file
 Win32/WglContext.cpp.obj:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WglContext.cpp.obj
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WglContext.cpp.obj
 .PHONY : Win32/WglContext.cpp.obj
 
 Win32/WglContext.i: Win32/WglContext.cpp.i
@@ -609,7 +609,7 @@ Win32/WglContext.i: Win32/WglContext.cpp.i
 
 # target to preprocess a source file
 Win32/WglContext.cpp.i:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WglContext.cpp.i
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WglContext.cpp.i
 .PHONY : Win32/WglContext.cpp.i
 
 Win32/WglContext.s: Win32/WglContext.cpp.s
@@ -618,7 +618,7 @@ Win32/WglContext.s: Win32/WglContext.cpp.s
 
 # target to generate assembly for a file
 Win32/WglContext.cpp.s:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WglContext.cpp.s
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WglContext.cpp.s
 .PHONY : Win32/WglContext.cpp.s
 
 Win32/WglExtensions.obj: Win32/WglExtensions.cpp.obj
@@ -627,7 +627,7 @@ Win32/WglExtensions.obj: Win32/WglExtensions.cpp.obj
 
 # target to build an object file
 Win32/WglExtensions.cpp.obj:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WglExtensions.cpp.obj
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WglExtensions.cpp.obj
 .PHONY : Win32/WglExtensions.cpp.obj
 
 Win32/WglExtensions.i: Win32/WglExtensions.cpp.i
@@ -636,7 +636,7 @@ Win32/WglExtensions.i: Win32/WglExtensions.cpp.i
 
 # target to preprocess a source file
 Win32/WglExtensions.cpp.i:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WglExtensions.cpp.i
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WglExtensions.cpp.i
 .PHONY : Win32/WglExtensions.cpp.i
 
 Win32/WglExtensions.s: Win32/WglExtensions.cpp.s
@@ -645,7 +645,7 @@ Win32/WglExtensions.s: Win32/WglExtensions.cpp.s
 
 # target to generate assembly for a file
 Win32/WglExtensions.cpp.s:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WglExtensions.cpp.s
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WglExtensions.cpp.s
 .PHONY : Win32/WglExtensions.cpp.s
 
 Win32/WindowImplWin32.obj: Win32/WindowImplWin32.cpp.obj
@@ -654,7 +654,7 @@ Win32/WindowImplWin32.obj: Win32/WindowImplWin32.cpp.obj
 
 # target to build an object file
 Win32/WindowImplWin32.cpp.obj:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WindowImplWin32.cpp.obj
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WindowImplWin32.cpp.obj
 .PHONY : Win32/WindowImplWin32.cpp.obj
 
 Win32/WindowImplWin32.i: Win32/WindowImplWin32.cpp.i
@@ -663,7 +663,7 @@ Win32/WindowImplWin32.i: Win32/WindowImplWin32.cpp.i
 
 # target to preprocess a source file
 Win32/WindowImplWin32.cpp.i:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WindowImplWin32.cpp.i
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WindowImplWin32.cpp.i
 .PHONY : Win32/WindowImplWin32.cpp.i
 
 Win32/WindowImplWin32.s: Win32/WindowImplWin32.cpp.s
@@ -672,7 +672,7 @@ Win32/WindowImplWin32.s: Win32/WindowImplWin32.cpp.s
 
 # target to generate assembly for a file
 Win32/WindowImplWin32.cpp.s:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WindowImplWin32.cpp.s
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WindowImplWin32.cpp.s
 .PHONY : Win32/WindowImplWin32.cpp.s
 
 Window.obj: Window.cpp.obj
@@ -681,7 +681,7 @@ Window.obj: Window.cpp.obj
 
 # target to build an object file
 Window.cpp.obj:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Window.cpp.obj
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Window.cpp.obj
 .PHONY : Window.cpp.obj
 
 Window.i: Window.cpp.i
@@ -690,7 +690,7 @@ Window.i: Window.cpp.i
 
 # target to preprocess a source file
 Window.cpp.i:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Window.cpp.i
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Window.cpp.i
 .PHONY : Window.cpp.i
 
 Window.s: Window.cpp.s
@@ -699,7 +699,7 @@ Window.s: Window.cpp.s
 
 # target to generate assembly for a file
 Window.cpp.s:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Window.cpp.s
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Window.cpp.s
 .PHONY : Window.cpp.s
 
 WindowImpl.obj: WindowImpl.cpp.obj
@@ -708,7 +708,7 @@ WindowImpl.obj: WindowImpl.cpp.obj
 
 # target to build an object file
 WindowImpl.cpp.obj:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowImpl.cpp.obj
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowImpl.cpp.obj
 .PHONY : WindowImpl.cpp.obj
 
 WindowImpl.i: WindowImpl.cpp.i
@@ -717,7 +717,7 @@ WindowImpl.i: WindowImpl.cpp.i
 
 # target to preprocess a source file
 WindowImpl.cpp.i:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowImpl.cpp.i
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowImpl.cpp.i
 .PHONY : WindowImpl.cpp.i
 
 WindowImpl.s: WindowImpl.cpp.s
@@ -726,7 +726,7 @@ WindowImpl.s: WindowImpl.cpp.s
 
 # target to generate assembly for a file
 WindowImpl.cpp.s:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowImpl.cpp.s
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowImpl.cpp.s
 .PHONY : WindowImpl.cpp.s
 
 # Help Target
@@ -813,6 +813,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\FlappyBird\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d P:\C++\FlappyBird\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

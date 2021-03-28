@@ -5,7 +5,7 @@ SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/BlendMode.cpp.obj
  ../SFML/include/SFML/Config.hpp
  ../SFML/include/SFML/Graphics/BlendMode.hpp
  ../SFML/include/SFML/Graphics/Export.hpp
- C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Graphics/BlendMode.cpp
+ P:/C++/FlappyBird/SFML/src/SFML/Graphics/BlendMode.cpp
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/CircleShape.cpp.obj
  ../SFML/include/SFML/Config.hpp
  ../SFML/include/SFML/Graphics/BlendMode.hpp
@@ -24,12 +24,12 @@ SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/CircleShape.cpp.obj
  ../SFML/include/SFML/Graphics/VertexArray.hpp
  ../SFML/include/SFML/System/Vector2.hpp
  ../SFML/include/SFML/System/Vector2.inl
- C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Graphics/CircleShape.cpp
+ P:/C++/FlappyBird/SFML/src/SFML/Graphics/CircleShape.cpp
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Color.cpp.obj
  ../SFML/include/SFML/Config.hpp
  ../SFML/include/SFML/Graphics/Color.hpp
  ../SFML/include/SFML/Graphics/Export.hpp
- C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Graphics/Color.cpp
+ P:/C++/FlappyBird/SFML/src/SFML/Graphics/Color.cpp
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/ConvexShape.cpp.obj
  ../SFML/include/SFML/Config.hpp
  ../SFML/include/SFML/Graphics/BlendMode.hpp
@@ -48,7 +48,7 @@ SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/ConvexShape.cpp.obj
  ../SFML/include/SFML/Graphics/VertexArray.hpp
  ../SFML/include/SFML/System/Vector2.hpp
  ../SFML/include/SFML/System/Vector2.inl
- C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Graphics/ConvexShape.cpp
+ P:/C++/FlappyBird/SFML/src/SFML/Graphics/ConvexShape.cpp
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Font.cpp.obj
  ../SFML/extlibs/headers/freetype2/config/ftheader.h
  ../SFML/extlibs/headers/freetype2/ft2build.h
@@ -78,7 +78,7 @@ SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Font.cpp.obj
  ../SFML/src/SFML/Graphics/GLExtensions.hpp
  ../SFML/src/SFML/Graphics/GLLoader.hpp
  ../SFML/src/SFML/System/Android/ResourceStream.hpp
- C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Graphics/Font.cpp
+ P:/C++/FlappyBird/SFML/src/SFML/Graphics/Font.cpp
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLCheck.cpp.obj
  ../SFML/include/SFML/Config.hpp
  ../SFML/include/SFML/OpenGL.hpp
@@ -87,7 +87,7 @@ SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLCheck.cpp.obj
  ../SFML/src/SFML/Graphics/GLCheck.hpp
  ../SFML/src/SFML/Graphics/GLExtensions.hpp
  ../SFML/src/SFML/Graphics/GLLoader.hpp
- C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Graphics/GLCheck.cpp
+ P:/C++/FlappyBird/SFML/src/SFML/Graphics/GLCheck.cpp
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLExtensions.cpp.obj
  ../SFML/include/SFML/Config.hpp
  ../SFML/include/SFML/OpenGL.hpp
@@ -100,7 +100,7 @@ SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLExtensions.cpp.obj
  ../SFML/include/SFML/Window/GlResource.hpp
  ../SFML/src/SFML/Graphics/GLExtensions.hpp
  ../SFML/src/SFML/Graphics/GLLoader.hpp
- C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Graphics/GLExtensions.cpp
+ P:/C++/FlappyBird/SFML/src/SFML/Graphics/GLExtensions.cpp
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLLoader.cpp.obj
  ../SFML/include/SFML/Config.hpp
  ../SFML/include/SFML/System/Export.hpp
@@ -110,7 +110,7 @@ SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLLoader.cpp.obj
  ../SFML/include/SFML/Window/Export.hpp
  ../SFML/include/SFML/Window/GlResource.hpp
  ../SFML/src/SFML/Graphics/GLLoader.hpp
- C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Graphics/GLLoader.cpp
+ P:/C++/FlappyBird/SFML/src/SFML/Graphics/GLLoader.cpp
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Glsl.cpp.obj
  ../SFML/include/SFML/Config.hpp
  ../SFML/include/SFML/Graphics/Color.hpp
@@ -124,7 +124,7 @@ SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Glsl.cpp.obj
  ../SFML/include/SFML/System/Vector2.inl
  ../SFML/include/SFML/System/Vector3.hpp
  ../SFML/include/SFML/System/Vector3.inl
- C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Graphics/Glsl.cpp
+ P:/C++/FlappyBird/SFML/src/SFML/Graphics/Glsl.cpp
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Image.cpp.obj
  ../SFML/include/SFML/Config.hpp
  ../SFML/include/SFML/Graphics/Color.hpp
@@ -140,7 +140,7 @@ SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Image.cpp.obj
  ../SFML/include/SFML/System/Vector2.inl
  ../SFML/src/SFML/Graphics/ImageLoader.hpp
  ../SFML/src/SFML/System/Android/ResourceStream.hpp
- C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Graphics/Image.cpp
+ P:/C++/FlappyBird/SFML/src/SFML/Graphics/Image.cpp
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/ImageLoader.cpp.obj
  ../SFML/extlibs/headers/jpeg/jconfig.h
  ../SFML/extlibs/headers/jpeg/jerror.h
@@ -156,7 +156,7 @@ SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/ImageLoader.cpp.obj
  ../SFML/include/SFML/System/Vector2.hpp
  ../SFML/include/SFML/System/Vector2.inl
  ../SFML/src/SFML/Graphics/ImageLoader.hpp
- C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Graphics/ImageLoader.cpp
+ P:/C++/FlappyBird/SFML/src/SFML/Graphics/ImageLoader.cpp
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RectangleShape.cpp.obj
  ../SFML/include/SFML/Config.hpp
  ../SFML/include/SFML/Graphics/BlendMode.hpp
@@ -175,7 +175,7 @@ SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RectangleShape.cpp.obj
  ../SFML/include/SFML/Graphics/VertexArray.hpp
  ../SFML/include/SFML/System/Vector2.hpp
  ../SFML/include/SFML/System/Vector2.inl
- C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Graphics/RectangleShape.cpp
+ P:/C++/FlappyBird/SFML/src/SFML/Graphics/RectangleShape.cpp
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderStates.cpp.obj
  ../SFML/include/SFML/Config.hpp
  ../SFML/include/SFML/Graphics/BlendMode.hpp
@@ -186,7 +186,7 @@ SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderStates.cpp.obj
  ../SFML/include/SFML/Graphics/Transform.hpp
  ../SFML/include/SFML/System/Vector2.hpp
  ../SFML/include/SFML/System/Vector2.inl
- C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Graphics/RenderStates.cpp
+ P:/C++/FlappyBird/SFML/src/SFML/Graphics/RenderStates.cpp
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTarget.cpp.obj
  ../SFML/include/SFML/Config.hpp
  ../SFML/include/SFML/Graphics/BlendMode.hpp
@@ -220,7 +220,7 @@ SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTarget.cpp.obj
  ../SFML/src/SFML/Graphics/GLCheck.hpp
  ../SFML/src/SFML/Graphics/GLExtensions.hpp
  ../SFML/src/SFML/Graphics/GLLoader.hpp
- C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Graphics/RenderTarget.cpp
+ P:/C++/FlappyBird/SFML/src/SFML/Graphics/RenderTarget.cpp
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTexture.cpp.obj
  ../SFML/include/SFML/Config.hpp
  ../SFML/include/SFML/Graphics/BlendMode.hpp
@@ -249,13 +249,13 @@ SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTexture.cpp.obj
  ../SFML/src/SFML/Graphics/RenderTextureImpl.hpp
  ../SFML/src/SFML/Graphics/RenderTextureImplDefault.hpp
  ../SFML/src/SFML/Graphics/RenderTextureImplFBO.hpp
- C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Graphics/RenderTexture.cpp
+ P:/C++/FlappyBird/SFML/src/SFML/Graphics/RenderTexture.cpp
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImpl.cpp.obj
  ../SFML/include/SFML/Config.hpp
  ../SFML/include/SFML/System/Export.hpp
  ../SFML/include/SFML/System/NonCopyable.hpp
  ../SFML/src/SFML/Graphics/RenderTextureImpl.hpp
- C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Graphics/RenderTextureImpl.cpp
+ P:/C++/FlappyBird/SFML/src/SFML/Graphics/RenderTextureImpl.cpp
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplDefault.cpp.obj
  ../SFML/include/SFML/Config.hpp
  ../SFML/include/SFML/OpenGL.hpp
@@ -272,7 +272,7 @@ SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplDefault.cpp
  ../SFML/src/SFML/Graphics/RenderTextureImpl.hpp
  ../SFML/src/SFML/Graphics/RenderTextureImplDefault.hpp
  ../SFML/src/SFML/Graphics/TextureSaver.hpp
- C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Graphics/RenderTextureImplDefault.cpp
+ P:/C++/FlappyBird/SFML/src/SFML/Graphics/RenderTextureImplDefault.cpp
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplFBO.cpp.obj
  ../SFML/include/SFML/Config.hpp
  ../SFML/include/SFML/Graphics/Color.hpp
@@ -296,7 +296,7 @@ SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplFBO.cpp.obj
  ../SFML/src/SFML/Graphics/GLLoader.hpp
  ../SFML/src/SFML/Graphics/RenderTextureImpl.hpp
  ../SFML/src/SFML/Graphics/RenderTextureImplFBO.hpp
- C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Graphics/RenderTextureImplFBO.cpp
+ P:/C++/FlappyBird/SFML/src/SFML/Graphics/RenderTextureImplFBO.cpp
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderWindow.cpp.obj
  ../SFML/include/SFML/Config.hpp
  ../SFML/include/SFML/Graphics/BlendMode.hpp
@@ -330,7 +330,7 @@ SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderWindow.cpp.obj
  ../SFML/include/SFML/Window/Window.hpp
  ../SFML/include/SFML/Window/WindowHandle.hpp
  ../SFML/include/SFML/Window/WindowStyle.hpp
- C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Graphics/RenderWindow.cpp
+ P:/C++/FlappyBird/SFML/src/SFML/Graphics/RenderWindow.cpp
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shader.cpp.obj
  ../SFML/include/SFML/Config.hpp
  ../SFML/include/SFML/Graphics/Color.hpp
@@ -361,7 +361,7 @@ SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shader.cpp.obj
  ../SFML/src/SFML/Graphics/GLCheck.hpp
  ../SFML/src/SFML/Graphics/GLExtensions.hpp
  ../SFML/src/SFML/Graphics/GLLoader.hpp
- C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Graphics/Shader.cpp
+ P:/C++/FlappyBird/SFML/src/SFML/Graphics/Shader.cpp
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shape.cpp.obj
  ../SFML/include/SFML/Config.hpp
  ../SFML/include/SFML/Graphics/BlendMode.hpp
@@ -388,7 +388,7 @@ SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shape.cpp.obj
  ../SFML/include/SFML/System/Vector2.inl
  ../SFML/include/SFML/Window/Export.hpp
  ../SFML/include/SFML/Window/GlResource.hpp
- C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Graphics/Shape.cpp
+ P:/C++/FlappyBird/SFML/src/SFML/Graphics/Shape.cpp
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Sprite.cpp.obj
  ../SFML/include/SFML/Config.hpp
  ../SFML/include/SFML/Graphics/BlendMode.hpp
@@ -413,7 +413,7 @@ SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Sprite.cpp.obj
  ../SFML/include/SFML/System/Vector2.inl
  ../SFML/include/SFML/Window/Export.hpp
  ../SFML/include/SFML/Window/GlResource.hpp
- C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Graphics/Sprite.cpp
+ P:/C++/FlappyBird/SFML/src/SFML/Graphics/Sprite.cpp
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Text.cpp.obj
  ../SFML/include/SFML/Config.hpp
  ../SFML/include/SFML/Graphics/BlendMode.hpp
@@ -445,7 +445,7 @@ SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Text.cpp.obj
  ../SFML/include/SFML/System/Vector2.inl
  ../SFML/include/SFML/Window/Export.hpp
  ../SFML/include/SFML/Window/GlResource.hpp
- C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Graphics/Text.cpp
+ P:/C++/FlappyBird/SFML/src/SFML/Graphics/Text.cpp
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Texture.cpp.obj
  ../SFML/include/SFML/Config.hpp
  ../SFML/include/SFML/Graphics/Color.hpp
@@ -480,7 +480,7 @@ SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Texture.cpp.obj
  ../SFML/src/SFML/Graphics/GLExtensions.hpp
  ../SFML/src/SFML/Graphics/GLLoader.hpp
  ../SFML/src/SFML/Graphics/TextureSaver.hpp
- C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Graphics/Texture.cpp
+ P:/C++/FlappyBird/SFML/src/SFML/Graphics/Texture.cpp
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/TextureSaver.cpp.obj
  ../SFML/include/SFML/Config.hpp
  ../SFML/include/SFML/OpenGL.hpp
@@ -488,7 +488,7 @@ SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/TextureSaver.cpp.obj
  ../SFML/src/SFML/Graphics/GLExtensions.hpp
  ../SFML/src/SFML/Graphics/GLLoader.hpp
  ../SFML/src/SFML/Graphics/TextureSaver.hpp
- C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Graphics/TextureSaver.cpp
+ P:/C++/FlappyBird/SFML/src/SFML/Graphics/TextureSaver.cpp
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Transform.cpp.obj
  ../SFML/include/SFML/Config.hpp
  ../SFML/include/SFML/Graphics/Export.hpp
@@ -497,7 +497,7 @@ SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Transform.cpp.obj
  ../SFML/include/SFML/Graphics/Transform.hpp
  ../SFML/include/SFML/System/Vector2.hpp
  ../SFML/include/SFML/System/Vector2.inl
- C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Graphics/Transform.cpp
+ P:/C++/FlappyBird/SFML/src/SFML/Graphics/Transform.cpp
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Transformable.cpp.obj
  ../SFML/include/SFML/Config.hpp
  ../SFML/include/SFML/Graphics/Export.hpp
@@ -507,7 +507,7 @@ SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Transformable.cpp.obj
  ../SFML/include/SFML/Graphics/Transformable.hpp
  ../SFML/include/SFML/System/Vector2.hpp
  ../SFML/include/SFML/System/Vector2.inl
- C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Graphics/Transformable.cpp
+ P:/C++/FlappyBird/SFML/src/SFML/Graphics/Transformable.cpp
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Vertex.cpp.obj
  ../SFML/include/SFML/Config.hpp
  ../SFML/include/SFML/Graphics/Color.hpp
@@ -515,7 +515,7 @@ SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Vertex.cpp.obj
  ../SFML/include/SFML/Graphics/Vertex.hpp
  ../SFML/include/SFML/System/Vector2.hpp
  ../SFML/include/SFML/System/Vector2.inl
- C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Graphics/Vertex.cpp
+ P:/C++/FlappyBird/SFML/src/SFML/Graphics/Vertex.cpp
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/VertexArray.cpp.obj
  ../SFML/include/SFML/Config.hpp
  ../SFML/include/SFML/Graphics/BlendMode.hpp
@@ -535,7 +535,7 @@ SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/VertexArray.cpp.obj
  ../SFML/include/SFML/System/NonCopyable.hpp
  ../SFML/include/SFML/System/Vector2.hpp
  ../SFML/include/SFML/System/Vector2.inl
- C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Graphics/VertexArray.cpp
+ P:/C++/FlappyBird/SFML/src/SFML/Graphics/VertexArray.cpp
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/View.cpp.obj
  ../SFML/include/SFML/Config.hpp
  ../SFML/include/SFML/Graphics/Export.hpp
@@ -545,4 +545,4 @@ SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/View.cpp.obj
  ../SFML/include/SFML/Graphics/View.hpp
  ../SFML/include/SFML/System/Vector2.hpp
  ../SFML/include/SFML/System/Vector2.inl
- C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/FlappyBird/SFML/src/SFML/Graphics/View.cpp
+ P:/C++/FlappyBird/SFML/src/SFML/Graphics/View.cpp
