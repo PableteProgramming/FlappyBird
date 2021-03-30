@@ -216,6 +216,33 @@ src/Bird.cpp.s:
 	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f app\CMakeFiles\FlappyBird.dir\build.make app/CMakeFiles/FlappyBird.dir/src/Bird.cpp.s
 .PHONY : src/Bird.cpp.s
 
+src/Game.obj: src/Game.cpp.obj
+
+.PHONY : src/Game.obj
+
+# target to build an object file
+src/Game.cpp.obj:
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f app\CMakeFiles\FlappyBird.dir\build.make app/CMakeFiles/FlappyBird.dir/src/Game.cpp.obj
+.PHONY : src/Game.cpp.obj
+
+src/Game.i: src/Game.cpp.i
+
+.PHONY : src/Game.i
+
+# target to preprocess a source file
+src/Game.cpp.i:
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f app\CMakeFiles\FlappyBird.dir\build.make app/CMakeFiles/FlappyBird.dir/src/Game.cpp.i
+.PHONY : src/Game.cpp.i
+
+src/Game.s: src/Game.cpp.s
+
+.PHONY : src/Game.s
+
+# target to generate assembly for a file
+src/Game.cpp.s:
+	cd /d P:\C++\FlappyBird\build && $(MAKE) $(MAKESILENT) -f app\CMakeFiles\FlappyBird.dir\build.make app/CMakeFiles/FlappyBird.dir/src/Game.cpp.s
+.PHONY : src/Game.cpp.s
+
 src/main.obj: src/main.cpp.obj
 
 .PHONY : src/main.obj
@@ -259,6 +286,9 @@ help:
 	@echo ... src/Bird.obj
 	@echo ... src/Bird.i
 	@echo ... src/Bird.s
+	@echo ... src/Game.obj
+	@echo ... src/Game.i
+	@echo ... src/Game.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

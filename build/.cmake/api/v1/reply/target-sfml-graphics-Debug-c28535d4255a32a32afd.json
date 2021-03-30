@@ -87,6 +87,12 @@
 			{
 				"command" : 5,
 				"file" : 1,
+				"line" : 114,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
 				"line" : 128,
 				"parent" : 0
 			}
@@ -127,11 +133,11 @@
 				},
 				{
 					"backtrace" : 11,
-					"path" : "P:/C++/FlappyBird/SFML/extlibs/headers/freetype2"
+					"path" : "P:/C++/FlappyBird/SFML/extlibs/headers/jpeg"
 				},
 				{
-					"backtrace" : 11,
-					"path" : "P:/C++/FlappyBird/SFML/extlibs/headers/jpeg"
+					"backtrace" : 12,
+					"path" : "P:/C++/FlappyBird/SFML/extlibs/headers/freetype2"
 				}
 			],
 			"language" : "CXX",
@@ -204,11 +210,11 @@
 				},
 				{
 					"backtrace" : 11,
-					"path" : "P:/C++/FlappyBird/SFML/extlibs/headers/freetype2"
+					"path" : "P:/C++/FlappyBird/SFML/extlibs/headers/jpeg"
 				},
 				{
-					"backtrace" : 11,
-					"path" : "P:/C++/FlappyBird/SFML/extlibs/headers/jpeg"
+					"backtrace" : 12,
+					"path" : "P:/C++/FlappyBird/SFML/extlibs/headers/freetype2"
 				}
 			],
 			"language" : "CXX",

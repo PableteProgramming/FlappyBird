@@ -208,7 +208,7 @@
 				{
 					"directoryIndex" : 9,
 					"id" : "FlappyBird::@5f5a17c01335469806cb",
-					"jsonFile" : "target-FlappyBird-Debug-c2bf61bd55d072437561.json",
+					"jsonFile" : "target-FlappyBird-Debug-46010d39191a7b596e21.json",
 					"name" : "FlappyBird",
 					"projectIndex" : 0
 				},
@@ -222,7 +222,7 @@
 				{
 					"directoryIndex" : 7,
 					"id" : "sfml-graphics::@b5d161fc85c1c0dd9373",
-					"jsonFile" : "target-sfml-graphics-Debug-07f3ff63bfda4cfcbb07.json",
+					"jsonFile" : "target-sfml-graphics-Debug-c28535d4255a32a32afd.json",
 					"name" : "sfml-graphics",
 					"projectIndex" : 1
 				},

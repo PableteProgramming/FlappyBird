@@ -643,11 +643,19 @@ SFML/Config.hpp
 ../app/include/Bird.h
 SFML/Graphics.hpp
 -
+iostream
+-
+
+../app/include/Game.h
+SFML/Graphics.hpp
+-
 
 ../app/include/main.h
 SFML/Graphics.hpp
 -
 iostream
+-
+Game.h
 -
 Bird.h
 -

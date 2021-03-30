@@ -103,16 +103,32 @@ app/CMakeFiles/FlappyBird.dir/src/Bird.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlappyBird.dir/src/Bird.cpp.s"
 	cd /d P:\C++\FlappyBird\build\app && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S P:\C++\FlappyBird\app\src\Bird.cpp -o CMakeFiles\FlappyBird.dir\src\Bird.cpp.s
 
+app/CMakeFiles/FlappyBird.dir/src/Game.cpp.obj: app/CMakeFiles/FlappyBird.dir/flags.make
+app/CMakeFiles/FlappyBird.dir/src/Game.cpp.obj: app/CMakeFiles/FlappyBird.dir/includes_CXX.rsp
+app/CMakeFiles/FlappyBird.dir/src/Game.cpp.obj: ../app/src/Game.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=P:\C++\FlappyBird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object app/CMakeFiles/FlappyBird.dir/src/Game.cpp.obj"
+	cd /d P:\C++\FlappyBird\build\app && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlappyBird.dir\src\Game.cpp.obj -c P:\C++\FlappyBird\app\src\Game.cpp
+
+app/CMakeFiles/FlappyBird.dir/src/Game.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlappyBird.dir/src/Game.cpp.i"
+	cd /d P:\C++\FlappyBird\build\app && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E P:\C++\FlappyBird\app\src\Game.cpp > CMakeFiles\FlappyBird.dir\src\Game.cpp.i
+
+app/CMakeFiles/FlappyBird.dir/src/Game.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlappyBird.dir/src/Game.cpp.s"
+	cd /d P:\C++\FlappyBird\build\app && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S P:\C++\FlappyBird\app\src\Game.cpp -o CMakeFiles\FlappyBird.dir\src\Game.cpp.s
+
 # Object files for target FlappyBird
 FlappyBird_OBJECTS = \
 "CMakeFiles/FlappyBird.dir/src/main.cpp.obj" \
-"CMakeFiles/FlappyBird.dir/src/Bird.cpp.obj"
+"CMakeFiles/FlappyBird.dir/src/Bird.cpp.obj" \
+"CMakeFiles/FlappyBird.dir/src/Game.cpp.obj"
 
 # External object files for target FlappyBird
 FlappyBird_EXTERNAL_OBJECTS =
 
 app/FlappyBird.exe: app/CMakeFiles/FlappyBird.dir/src/main.cpp.obj
 app/FlappyBird.exe: app/CMakeFiles/FlappyBird.dir/src/Bird.cpp.obj
+app/FlappyBird.exe: app/CMakeFiles/FlappyBird.dir/src/Game.cpp.obj
 app/FlappyBird.exe: app/CMakeFiles/FlappyBird.dir/build.make
 app/FlappyBird.exe: SFML/lib/libsfml-graphics-s-d.a
 app/FlappyBird.exe: SFML/lib/libsfml-window-s-d.a
@@ -122,7 +138,7 @@ app/FlappyBird.exe: ../SFML/extlibs/libs-mingw/x86/libjpeg.a
 app/FlappyBird.exe: app/CMakeFiles/FlappyBird.dir/linklibs.rsp
 app/FlappyBird.exe: app/CMakeFiles/FlappyBird.dir/objects1.rsp
 app/FlappyBird.exe: app/CMakeFiles/FlappyBird.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=P:\C++\FlappyBird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable FlappyBird.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=P:\C++\FlappyBird\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable FlappyBird.exe"
 	cd /d P:\C++\FlappyBird\build\app && "C:\Program Files\CMake\bin\cmake.exe" -E copy_directory P:/C++/FlappyBird/resources P:/C++/FlappyBird/build/app/resources
 	cd /d P:\C++\FlappyBird\build\app && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\FlappyBird.dir\link.txt --verbose=$(VERBOSE)
 

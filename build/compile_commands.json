@@ -493,5 +493,10 @@
   "directory": "P:/C++/FlappyBird/build/app",
   "command": "C:\\MinGW\\bin\\g++.exe -DSFML_STATIC @CMakeFiles/FlappyBird.dir/includes_CXX.rsp -g -o CMakeFiles\\FlappyBird.dir\\src\\Bird.cpp.obj -c P:\\C++\\FlappyBird\\app\\src\\Bird.cpp",
   "file": "P:/C++/FlappyBird/app/src/Bird.cpp"
+},
+{
+  "directory": "P:/C++/FlappyBird/build/app",
+  "command": "C:\\MinGW\\bin\\g++.exe -DSFML_STATIC @CMakeFiles/FlappyBird.dir/includes_CXX.rsp -g -o CMakeFiles\\FlappyBird.dir\\src\\Game.cpp.obj -c P:\\C++\\FlappyBird\\app\\src\\Game.cpp",
+  "file": "P:/C++/FlappyBird/app/src/Game.cpp"
 }
 ]

@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "P:/C++/FlappyBird/app/src/Bird.cpp" "P:/C++/FlappyBird/build/app/CMakeFiles/FlappyBird.dir/src/Bird.cpp.obj"
+  "P:/C++/FlappyBird/app/src/Game.cpp" "P:/C++/FlappyBird/build/app/CMakeFiles/FlappyBird.dir/src/Game.cpp.obj"
   "P:/C++/FlappyBird/app/src/main.cpp" "P:/C++/FlappyBird/build/app/CMakeFiles/FlappyBird.dir/src/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
