@@ -23,11 +23,11 @@ int main()
         timePassed += toAdd;
 
         if(timePassed >= totalTimeToPass){
+            game.DisplayBackground(window);
             player.Move(timePassed, event);
             if (player.isDead())
                 window.close();
             timePassed = 0;
-            window.clear(sf::Color(0,255,255));
             player.Draw(window);
             window.display();
         }

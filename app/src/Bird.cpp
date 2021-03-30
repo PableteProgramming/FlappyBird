@@ -2,8 +2,6 @@
 
 Bird::Bird()
 {
-    x = y = velocity = 0;
-
     if (!texture.loadFromFile("resources/images/bird1.png"))
         std::cout << "Failed to load bird image!" << std::endl;
 
@@ -12,6 +10,10 @@ Bird::Bird()
 
     width = sprite.getScale().x;
     height = sprite.getScale().y;
+
+    x = window_width / 2 - 50;
+    y = window_height / 2 - height / 2;
+    velocity = 0;
 }
 
 void Bird::Move(double deltatime, sf::Event& e){
