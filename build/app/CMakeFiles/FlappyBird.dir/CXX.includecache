@@ -649,6 +649,10 @@ iostream
 ../app/include/Game.h
 SFML/Graphics.hpp
 -
+vector
+-
+iostream
+-
 
 ../app/include/main.h
 SFML/Graphics.hpp
@@ -657,10 +661,6 @@ iostream
 -
 Game.h
 -
-Bird.h
--
-
-P:/C++/FlappyBird/app/src/Bird.cpp
 Bird.h
 -
 

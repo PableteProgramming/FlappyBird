@@ -23,7 +23,8 @@ int main()
         timePassed += toAdd;
 
         if(timePassed >= totalTimeToPass){
-            game.DisplayBackground(window);
+            game.DisplayEnvironment(window);
+            game.MoveGround();
             player.Move(timePassed, event);
             if (player.isDead())
                 window.close();
