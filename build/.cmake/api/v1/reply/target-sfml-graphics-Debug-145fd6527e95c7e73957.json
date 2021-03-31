@@ -87,12 +87,6 @@
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 114,
-				"parent" : 0
-			},
-			{
-				"command" : 5,
-				"file" : 1,
 				"line" : 128,
 				"parent" : 0
 			}
@@ -133,11 +127,11 @@
 				},
 				{
 					"backtrace" : 11,
-					"path" : "P:/C++/FlappyBird/SFML/extlibs/headers/jpeg"
+					"path" : "P:/C++/FlappyBird/SFML/extlibs/headers/freetype2"
 				},
 				{
-					"backtrace" : 12,
-					"path" : "P:/C++/FlappyBird/SFML/extlibs/headers/freetype2"
+					"backtrace" : 11,
+					"path" : "P:/C++/FlappyBird/SFML/extlibs/headers/jpeg"
 				}
 			],
 			"language" : "CXX",
@@ -210,11 +204,11 @@
 				},
 				{
 					"backtrace" : 11,
-					"path" : "P:/C++/FlappyBird/SFML/extlibs/headers/jpeg"
+					"path" : "P:/C++/FlappyBird/SFML/extlibs/headers/freetype2"
 				},
 				{
-					"backtrace" : 12,
-					"path" : "P:/C++/FlappyBird/SFML/extlibs/headers/freetype2"
+					"backtrace" : 11,
+					"path" : "P:/C++/FlappyBird/SFML/extlibs/headers/jpeg"
 				}
 			],
 			"language" : "CXX",
@@ -228,11 +222,11 @@
 	[
 		{
 			"backtrace" : 4,
-			"id" : "sfml-system::@f1fd4bce49687b53ec1b"
+			"id" : "sfml-window::@0daf25d7b5dd386fd904"
 		},
 		{
 			"backtrace" : 4,
-			"id" : "sfml-window::@0daf25d7b5dd386fd904"
+			"id" : "sfml-system::@f1fd4bce49687b53ec1b"
 		}
 	],
 	"folder" : 

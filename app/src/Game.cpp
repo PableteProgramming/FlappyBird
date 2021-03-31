@@ -20,7 +20,7 @@ void Game::MoveGround()
     if (grounds[0].second + 336 >= 0.0f)
     {
         for (int i = 0; i < grounds.size(); i++)
-            grounds[i].second -= 0.05;
+            grounds[i].second -= 0.02;
     }
     else
     {
@@ -39,7 +39,7 @@ void Game::DisplayEnvironment(sf::RenderWindow& w)
     }
 }
 
-void Game::DisplayScore()
+void Game::MoveTubes()
 {
 
 }
