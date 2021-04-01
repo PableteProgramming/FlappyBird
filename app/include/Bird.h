@@ -13,11 +13,11 @@ private:
     int width, height;
     sf::Sprite sprite;
     sf::Texture texture;
-    void Jump(sf::Event&);
     bool isJumping = false;
     bool dead = false;
 public:
     Bird();
+    void Jump(sf::Event&);
     void Move(double, sf::Event&);
     void Draw(sf::RenderWindow&);
     void Collision(std::vector<std::pair<std::pair<sf::Sprite*, sf::Sprite*>, std::pair<float, float>>>);

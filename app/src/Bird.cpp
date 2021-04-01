@@ -17,7 +17,7 @@ Bird::Bird()
 }
 
 void Bird::Move(double deltatime, sf::Event& e){
-    Jump(e);
+    // Jump(e);
     double newy = (velocity * deltatime) + (0.5 * gravity * deltatime * deltatime);
     velocity = newy/deltatime;
     y -= newy;

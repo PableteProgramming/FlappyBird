@@ -22,7 +22,8 @@ int main()
         double toAdd = clock.restart().asSeconds();
         timePassed += toAdd;
 
-        if(timePassed >= totalTimeToPass){
+        player.Jump(event);
+        if (timePassed >= totalTimeToPass){
             game.DisplayEnvironment(window);
             game.MoveGround();
             game.MoveTubes();
