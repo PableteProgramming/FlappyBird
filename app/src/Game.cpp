@@ -24,7 +24,9 @@ Game::Game()
     tubes[tubes.size() - 1].first.first->setPosition(tubes[tubes.size() - 1].second.first, tubes[tubes.size() - 1].second.second);
     tubes[tubes.size() - 1].first.second->setPosition(tubes[tubes.size() - 1].second.first, tubes[tubes.size() - 1].second.second);
     tubes[tubes.size() - 1].first.second->setRotation(180);
-        
+
+    font.loadFromFile("resources/fonts/Flappy-Bird.ttf");
+    text.setFont(font);
 }
 
 void Game::MoveGround()

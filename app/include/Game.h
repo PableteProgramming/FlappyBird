@@ -6,7 +6,7 @@
 class Game
 {
 private:
-    int score;
+    int score = 0;
     sf::Texture tBackground;
     sf::Sprite sBackground;
     // Ground variables
@@ -17,6 +17,8 @@ private:
     std::vector<std::pair<std::pair<sf::Sprite*, sf::Sprite*>, std::pair<float, float>>> tubes;
     sf::Texture tTubes;
     //
+    sf::Font font;
+    sf::Text text;
 public:
     Game();
     void DisplayEnvironment(sf::RenderWindow&);
