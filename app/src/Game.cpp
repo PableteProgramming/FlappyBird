@@ -2,17 +2,29 @@
 
 Game::Game()
 {
+    srand(time(0));
+
     tBackground.loadFromFile("resources/images/bg.png");
     sBackground.setTexture(tBackground);
-    sBackground.setScale(2.25 * sBackground.getScale().x, 1.7 * sBackground.getScale().y);
+    sBackground.setScale(2 * sBackground.getScale().x, 1.4 * sBackground.getScale().y);
 
     tGround.loadFromFile("resources/images/base.png");
-    sGround.setTexture(tGround);
-    sGround.setScale(sGround.getScale().x * 2, sGround.getScale().y);
-    sGround.setPosition(0, 800 - 112);
 
     for (int i = 0; i < 3; i++)
         grounds.push_back(std::make_pair(new sf::Sprite(tGround), i * 336));
+
+    tTubes.loadFromFile("resources/images/pipe2.png");
+
+    tubes.push_back(std::make_pair(std::make_pair(new sf::Sprite(tTubes), new sf::Sprite(tTubes)), std::make_pair(800, rand() % 388 + 200)));
+    tubes[tubes.size() - 1].first.first->setPosition(tubes[tubes.size() - 1].second.first, tubes[tubes.size() - 1].second.second);
+    tubes[tubes.size() - 1].first.second->setPosition(tubes[tubes.size() - 1].second.first, tubes[tubes.size() - 1].second.second);
+    tubes[tubes.size() - 1].first.second->setRotation(180);
+
+    tubes.push_back(std::make_pair(std::make_pair(new sf::Sprite(tTubes), new sf::Sprite(tTubes)), std::make_pair(1100, rand() % 388 + 200)));
+    tubes[tubes.size() - 1].first.first->setPosition(tubes[tubes.size() - 1].second.first, tubes[tubes.size() - 1].second.second);
+    tubes[tubes.size() - 1].first.second->setPosition(tubes[tubes.size() - 1].second.first, tubes[tubes.size() - 1].second.second);
+    tubes[tubes.size() - 1].first.second->setRotation(180);
+        
 }
 
 void Game::MoveGround()
@@ -32,14 +44,35 @@ void Game::MoveGround()
 void Game::DisplayEnvironment(sf::RenderWindow& w)
 {
     w.draw(sBackground);
+
+    for (auto i : tubes)
+    {
+        i.first.first->setPosition(i.second.first, i.second.second);
+        w.draw(*i.first.first);
+        i.first.second->setPosition(i.second.first + 52, i.second.second - 120);
+        w.draw(*i.first.second);
+    }
+
     for (auto i : grounds)
     {   
-        i.first->setPosition(i.second, 800.0f - 112.0f);
+        i.first->setPosition(i.second, 700.0f - 112.0f);
         w.draw(*(i.first));
     }
 }
 
 void Game::MoveTubes()
 {
-
+    if (tubes[0].second.first + 52 >= 0)
+    {
+        for (int i = 0; i < tubes.size(); i++) {
+            tubes[i].second.first -= 0.02;
+        }
+    }
+    else{
+        tubes.erase(tubes.begin());
+        tubes.push_back(std::make_pair(std::make_pair(new sf::Sprite(tTubes), new sf::Sprite(tTubes)), std::make_pair(tubes[tubes.size() - 1].second.first + 300, rand() % 268 + 220)));
+        tubes[tubes.size() - 1].first.first->setPosition(tubes[tubes.size() - 1].second.first, tubes[tubes.size() - 1].second.second);
+        tubes[tubes.size() - 1].first.second->setPosition(tubes[tubes.size() - 1].second.first, tubes[tubes.size() - 1].second.second);
+        tubes[tubes.size() - 1].first.second->setRotation(180);
+    }
 }

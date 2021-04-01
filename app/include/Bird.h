@@ -1,7 +1,7 @@
 #include <SFML/Graphics.hpp>
 #include <iostream>
 
-const double gravity= -1500;
+const double gravity= -1800;
 const int window_width = 600;
 const int window_height = 800;
 

@@ -25,6 +25,7 @@ int main()
         if(timePassed >= totalTimeToPass){
             game.DisplayEnvironment(window);
             game.MoveGround();
+            game.MoveTubes();
             player.Move(timePassed, event);
             if (player.isDead())
                 window.close();

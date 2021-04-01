@@ -5,3 +5,7 @@ Explanations for Pablito :
 - To make the ground move, I simply created a vector which contains three separate sprites. I then check the 
 following : if the sprite in the middle has an x coord of 0, than push back a new sprite and delete the first one ; 
 else just subtract from the x coord to make the ground move.
+
+- To make the tubes move, I used the same concept as for the ground. The only difference is that I stored the tubes
+in a vector in pairs (the one up and down) and displayed them at the same time. I had to resize the tubes with pixel
+art because they weren't long enough and using the setScale() or scale() function in SFML would make them look ugly.
