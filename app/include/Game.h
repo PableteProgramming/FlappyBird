@@ -23,4 +23,5 @@ public:
     void MoveGround();
     void MoveTubes();
     void DisplayScore();
+    std::vector<std::pair<std::pair<sf::Sprite*, sf::Sprite*>, std::pair<float, float>>> GetTubes() { return tubes; };
 };

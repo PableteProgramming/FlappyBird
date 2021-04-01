@@ -640,17 +640,13 @@ SFML/Config.hpp
 
 ../SFML/include/SFML/Window/WindowStyle.hpp
 
-../app/include/Game.h
+../app/include/Bird.h
 SFML/Graphics.hpp
--
-vector
 -
 iostream
 -
-time.h
--
 
-P:/C++/FlappyBird/app/src/Game.cpp
-Game.h
+P:/C++/FlappyBird/app/src/Bird.cpp
+Bird.h
 -
 

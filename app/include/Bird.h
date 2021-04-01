@@ -20,5 +20,6 @@ public:
     Bird();
     void Move(double, sf::Event&);
     void Draw(sf::RenderWindow&);
+    void Collision(std::vector<std::pair<std::pair<sf::Sprite*, sf::Sprite*>, std::pair<float, float>>>);
     bool isDead() { return dead; };
 };

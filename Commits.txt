@@ -9,3 +9,5 @@ else just subtract from the x coord to make the ground move.
 - To make the tubes move, I used the same concept as for the ground. The only difference is that I stored the tubes
 in a vector in pairs (the one up and down) and displayed them at the same time. I had to resize the tubes with pixel
 art because they weren't long enough and using the setScale() or scale() function in SFML would make them look ugly.
+
+- To check for collision I go the FloatRects of the tube sprites and checked if they intersect.

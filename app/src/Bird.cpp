@@ -42,3 +42,28 @@ void Bird::Jump(sf::Event& e){
     if (e.type == sf::Event::KeyReleased && e.key.code == sf::Keyboard::Space)
         isJumping = false;
 }
+
+void Bird::Collision(std::vector<std::pair<std::pair<sf::Sprite*, sf::Sprite*>, std::pair<float, float>>> tubes)
+{
+    for (auto i : tubes)
+    {
+        sf::FloatRect tube1(i.first.first->getPosition().x,
+                            i.first.first->getPosition().y,
+                            i.first.first->getLocalBounds().width,
+                            i.first.first->getLocalBounds().height
+                        );
+        sf::FloatRect tube2(i.first.second->getPosition().x,
+                            i.first.second->getPosition().y,
+                            -i.first.second->getLocalBounds().width,
+                            -i.first.second->getLocalBounds().height 
+                        ); // '-' because this tube is rotated so the xy coords are on the other side
+        sf::FloatRect bird( sprite.getPosition().x,
+                            sprite.getPosition().y,
+                            sprite.getLocalBounds().width,
+                            sprite.getLocalBounds().height
+                        );
+
+        if (tube1.intersects(bird) || tube2.intersects(bird))
+            dead = true;
+    }
+}

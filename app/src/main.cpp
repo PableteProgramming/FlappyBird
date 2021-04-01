@@ -27,6 +27,7 @@ int main()
             game.MoveGround();
             game.MoveTubes();
             player.Move(timePassed, event);
+            player.Collision(game.GetTubes());
             if (player.isDead())
                 window.close();
             timePassed = 0;
