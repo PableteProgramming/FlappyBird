@@ -11,14 +11,17 @@ private:
     double x, y;
     double velocity;
     int width, height;
+    std::vector<sf::Texture> animations;
     sf::Sprite sprite;
-    sf::Texture texture;
+    float counter = 0, limit = 0.1;
+    int skinIndex;
     bool isJumping = false;
     bool dead = false;
+    void PlayAnimation(float);
 public:
     Bird();
     void Jump(sf::Event&);
-    void Move(double, sf::Event&);
+    void Move(double);
     void Draw(sf::RenderWindow&);
     void Collision(std::vector<std::pair<std::pair<sf::Sprite*, sf::Sprite*>, std::pair<float, float>>>);
     bool isDead() { return dead; };

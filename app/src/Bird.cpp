@@ -2,10 +2,20 @@
 
 Bird::Bird()
 {
-    if (!texture.loadFromFile("resources/images/bird1.png"))
-        std::cout << "Failed to load bird image!" << std::endl;
+    for (int i = 0; i < 3; i++) {
+        sf::Texture temp;
+        int index = i + 1;
+        temp.loadFromFile("resources/images/bird" + std::to_string(index) + ".png");
+        animations.push_back(temp);
+    }
 
-    sprite.setTexture(texture);
+    sf::Texture temp;
+    temp.loadFromFile("resources/images/bird2.png");
+    animations.push_back(temp);
+
+    skinIndex = 0;
+
+    sprite.setTexture(animations[skinIndex]);
     sprite.scale(1.5 * sprite.getScale().x,1.5 * sprite.getScale().y);
 
     width = sprite.getScale().x;
@@ -16,8 +26,9 @@ Bird::Bird()
     velocity = 0;
 }
 
-void Bird::Move(double deltatime, sf::Event& e){
-    // Jump(e);
+void Bird::Move(double deltatime){
+    PlayAnimation(deltatime);
+
     double newy = (velocity * deltatime) + (0.5 * gravity * deltatime * deltatime);
     velocity = newy/deltatime;
     y -= newy;
@@ -65,5 +76,20 @@ void Bird::Collision(std::vector<std::pair<std::pair<sf::Sprite*, sf::Sprite*>, 
 
         if (tube1.intersects(bird) || tube2.intersects(bird))
             dead = true;
+    }
+}
+
+void Bird::PlayAnimation(float deltaTime)
+{
+    counter += deltaTime;
+
+    if (counter >= limit)
+    {
+        counter = 0;
+        if (skinIndex == animations.size() - 1)
+            skinIndex = 0;
+        else
+            skinIndex++;
+        sprite.setTexture(animations[skinIndex]);
     }
 }

@@ -15,12 +15,12 @@ Game::Game()
 
     tTubes.loadFromFile("resources/images/pipe2.png");
 
-    tubes.push_back(std::make_pair(std::make_pair(new sf::Sprite(tTubes), new sf::Sprite(tTubes)), std::make_pair(800, rand() % 388 + 200)));
+    tubes.push_back(std::make_pair(std::make_pair(new sf::Sprite(tTubes), new sf::Sprite(tTubes)), std::make_pair(800, rand() % 288 + 200)));
     tubes[tubes.size() - 1].first.first->setPosition(tubes[tubes.size() - 1].second.first, tubes[tubes.size() - 1].second.second);
     tubes[tubes.size() - 1].first.second->setPosition(tubes[tubes.size() - 1].second.first, tubes[tubes.size() - 1].second.second);
     tubes[tubes.size() - 1].first.second->setRotation(180);
 
-    tubes.push_back(std::make_pair(std::make_pair(new sf::Sprite(tTubes), new sf::Sprite(tTubes)), std::make_pair(1100, rand() % 388 + 200)));
+    tubes.push_back(std::make_pair(std::make_pair(new sf::Sprite(tTubes), new sf::Sprite(tTubes)), std::make_pair(1100, rand() % 288 + 200)));
     tubes[tubes.size() - 1].first.first->setPosition(tubes[tubes.size() - 1].second.first, tubes[tubes.size() - 1].second.second);
     tubes[tubes.size() - 1].first.second->setPosition(tubes[tubes.size() - 1].second.first, tubes[tubes.size() - 1].second.second);
     tubes[tubes.size() - 1].first.second->setRotation(180);
