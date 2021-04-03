@@ -130,9 +130,9 @@ app/FlappyBird.exe: app/CMakeFiles/FlappyBird.dir/src/main.cpp.obj
 app/FlappyBird.exe: app/CMakeFiles/FlappyBird.dir/src/Bird.cpp.obj
 app/FlappyBird.exe: app/CMakeFiles/FlappyBird.dir/src/Game.cpp.obj
 app/FlappyBird.exe: app/CMakeFiles/FlappyBird.dir/build.make
-app/FlappyBird.exe: SFML/lib/libsfml-graphics-s-d.a
-app/FlappyBird.exe: SFML/lib/libsfml-window-s-d.a
-app/FlappyBird.exe: SFML/lib/libsfml-system-s-d.a
+app/FlappyBird.exe: SFML/lib/libsfml-graphics.a
+app/FlappyBird.exe: SFML/lib/libsfml-window.a
+app/FlappyBird.exe: SFML/lib/libsfml-system.a
 app/FlappyBird.exe: ../SFML/extlibs/libs-mingw/x86/libfreetype.a
 app/FlappyBird.exe: ../SFML/extlibs/libs-mingw/x86/libjpeg.a
 app/FlappyBird.exe: app/CMakeFiles/FlappyBird.dir/linklibs.rsp
