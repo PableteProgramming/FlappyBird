@@ -3,7 +3,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "SFML/lib/libsfml-network-s-d.a"
+			"path" : "SFML/lib/libsfml-network.a"
 		}
 	],
 	"backtrace" : 2,
@@ -76,12 +76,6 @@
 	"compileGroups" : 
 	[
 		{
-			"compileCommandFragments" : 
-			[
-				{
-					"fragment" : "-g"
-				}
-			],
 			"defines" : 
 			[
 				{
@@ -142,7 +136,7 @@
 		}
 	},
 	"name" : "sfml-network",
-	"nameOnDisk" : "libsfml-network-s-d.a",
+	"nameOnDisk" : "libsfml-network.a",
 	"paths" : 
 	{
 		"build" : "SFML/src/SFML/Network",

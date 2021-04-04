@@ -35,6 +35,10 @@ void Bird::Move(double deltatime){
 
     if (y + height > window_height)
         dead = true;
+
+    float rotation = -(velocity / 10);
+    if (abs(rotation) <= 90)
+        sprite.setRotation(rotation);
 }
 
 void Bird::Draw(sf::RenderWindow& window){

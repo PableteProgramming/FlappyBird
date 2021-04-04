@@ -159,7 +159,7 @@
 					]
 				}
 			],
-			"name" : "Debug",
+			"name" : "",
 			"projects" : 
 			[
 				{
@@ -208,49 +208,49 @@
 				{
 					"directoryIndex" : 9,
 					"id" : "FlappyBird::@5f5a17c01335469806cb",
-					"jsonFile" : "target-FlappyBird-Debug-8f013a61b5421660ed4d.json",
+					"jsonFile" : "target-FlappyBird-8cabfcba85dd0e38a255.json",
 					"name" : "FlappyBird",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 8,
 					"id" : "sfml-audio::@e9b1b5e9e6d4f50c4d9b",
-					"jsonFile" : "target-sfml-audio-Debug-fe58393cdd28cadda9f3.json",
+					"jsonFile" : "target-sfml-audio-027d78d79f00f789dff9.json",
 					"name" : "sfml-audio",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 7,
 					"id" : "sfml-graphics::@b5d161fc85c1c0dd9373",
-					"jsonFile" : "target-sfml-graphics-Debug-c28535d4255a32a32afd.json",
+					"jsonFile" : "target-sfml-graphics-56b845ba3127c854a030.json",
 					"name" : "sfml-graphics",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 4,
 					"id" : "sfml-main::@c6bfd72d0b1e1f066d8b",
-					"jsonFile" : "target-sfml-main-Debug-1ce527ca3a6cf3a39c37.json",
+					"jsonFile" : "target-sfml-main-f609d6f14e285bec1d14.json",
 					"name" : "sfml-main",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 6,
 					"id" : "sfml-network::@5e97341f5bcfe5d6b699",
-					"jsonFile" : "target-sfml-network-Debug-6ea4ced57a2cf7d996f4.json",
+					"jsonFile" : "target-sfml-network-7c331d27b2f00dec4c20.json",
 					"name" : "sfml-network",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 3,
 					"id" : "sfml-system::@f1fd4bce49687b53ec1b",
-					"jsonFile" : "target-sfml-system-Debug-a41ce1c9b92326e2550b.json",
+					"jsonFile" : "target-sfml-system-53e739ae3c6dbdd2c6ab.json",
 					"name" : "sfml-system",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 5,
 					"id" : "sfml-window::@0daf25d7b5dd386fd904",
-					"jsonFile" : "target-sfml-window-Debug-6073ea417036cb775185.json",
+					"jsonFile" : "target-sfml-window-b97a1812112f028ffa9b.json",
 					"name" : "sfml-window",
 					"projectIndex" : 1
 				}

@@ -81,12 +81,6 @@
 	"compileGroups" : 
 	[
 		{
-			"compileCommandFragments" : 
-			[
-				{
-					"fragment" : "-g"
-				}
-			],
 			"defines" : 
 			[
 				{
@@ -122,11 +116,11 @@
 		},
 		{
 			"backtrace" : 2,
-			"id" : "sfml-graphics::@b5d161fc85c1c0dd9373"
+			"id" : "sfml-window::@0daf25d7b5dd386fd904"
 		},
 		{
 			"backtrace" : 2,
-			"id" : "sfml-window::@0daf25d7b5dd386fd904"
+			"id" : "sfml-graphics::@b5d161fc85c1c0dd9373"
 		}
 	],
 	"id" : "FlappyBird::@5f5a17c01335469806cb",
@@ -135,26 +129,22 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "-g",
-				"role" : "flags"
-			},
-			{
 				"fragment" : "",
 				"role" : "flags"
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "..\\SFML\\lib\\libsfml-graphics-s-d.a",
+				"fragment" : "..\\SFML\\lib\\libsfml-graphics.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "..\\SFML\\lib\\libsfml-window-s-d.a",
+				"fragment" : "..\\SFML\\lib\\libsfml-window.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "..\\SFML\\lib\\libsfml-system-s-d.a",
+				"fragment" : "..\\SFML\\lib\\libsfml-system.a",
 				"role" : "libraries"
 			},
 			{

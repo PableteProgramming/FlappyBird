@@ -3,7 +3,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "SFML/lib/libsfml-main-d.a"
+			"path" : "SFML/lib/libsfml-main.a"
 		}
 	],
 	"backtrace" : 1,
@@ -61,12 +61,6 @@
 	"compileGroups" : 
 	[
 		{
-			"compileCommandFragments" : 
-			[
-				{
-					"fragment" : "-g"
-				}
-			],
 			"defines" : 
 			[
 				{
@@ -111,7 +105,7 @@
 		}
 	},
 	"name" : "sfml-main",
-	"nameOnDisk" : "libsfml-main-d.a",
+	"nameOnDisk" : "libsfml-main.a",
 	"paths" : 
 	{
 		"build" : "SFML/src/SFML/Main",

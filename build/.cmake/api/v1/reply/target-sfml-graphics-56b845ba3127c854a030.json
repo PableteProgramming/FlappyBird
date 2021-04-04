@@ -3,7 +3,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "SFML/lib/libsfml-graphics-s-d.a"
+			"path" : "SFML/lib/libsfml-graphics.a"
 		}
 	],
 	"backtrace" : 2,
@@ -101,12 +101,6 @@
 	"compileGroups" : 
 	[
 		{
-			"compileCommandFragments" : 
-			[
-				{
-					"fragment" : "-g"
-				}
-			],
 			"defines" : 
 			[
 				{
@@ -177,9 +171,6 @@
 		{
 			"compileCommandFragments" : 
 			[
-				{
-					"fragment" : "-g"
-				},
 				{
 					"fragment" : "-fno-strict-aliasing"
 				}
@@ -255,7 +246,7 @@
 		}
 	},
 	"name" : "sfml-graphics",
-	"nameOnDisk" : "libsfml-graphics-s-d.a",
+	"nameOnDisk" : "libsfml-graphics.a",
 	"paths" : 
 	{
 		"build" : "SFML/src/SFML/Graphics",

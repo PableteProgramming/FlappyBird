@@ -646,35 +646,7 @@ SFML/Graphics.hpp
 iostream
 -
 
-../app/include/Game.h
-SFML/Graphics.hpp
--
-vector
--
-iostream
--
-time.h
--
-
-../app/include/main.h
-SFML/Graphics.hpp
--
-iostream
--
-Game.h
--
-Bird.h
--
-
 P:/C++/FlappyBird/app/src/Bird.cpp
 Bird.h
--
-
-P:/C++/FlappyBird/app/src/Game.cpp
-Game.h
--
-
-P:/C++/FlappyBird/app/src/main.cpp
-main.h
 -
 
