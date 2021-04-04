@@ -4,6 +4,7 @@
         "list": "cpp",
         "vector": "cpp",
         "xstring": "cpp",
-        "cstdlib": "cpp"
+        "cstdlib": "cpp",
+        "utility": "cpp"
     }
 }

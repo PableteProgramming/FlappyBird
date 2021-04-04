@@ -17,6 +17,7 @@ Bird::Bird()
 
     sprite.setTexture(animations[skinIndex]);
     sprite.scale(1.5 * sprite.getScale().x,1.5 * sprite.getScale().y);
+    sprite.setOrigin(sprite.getTexture()->getSize().x / 2, sprite.getTexture()->getSize().y / 2);
 
     width = sprite.getScale().x;
     height = sprite.getScale().y;
@@ -24,6 +25,7 @@ Bird::Bird()
     x = window_width / 2 - 50;
     y = window_height / 2 - height / 2;
     velocity = 0;
+
 }
 
 void Bird::Move(double deltatime){
@@ -36,9 +38,18 @@ void Bird::Move(double deltatime){
     if (y + height > window_height)
         dead = true;
 
+
     float rotation = -(velocity / 10);
-    if (abs(rotation) <= 90)
-        sprite.setRotation(rotation);
+    if (abs(rotation) > 90)
+    {
+        if (rotation < 0)
+            rotation = -90;
+        else
+            rotation = 90;
+    }
+    sprite.setRotation(rotation);
+    sprite.setPosition(sprite.getPosition().x - sprite.getScale().x / 2, sprite.getPosition().y - sprite.getScale().y / 2);
+    std::cout << rotation << std::endl;
 }
 
 void Bird::Draw(sf::RenderWindow& window){
