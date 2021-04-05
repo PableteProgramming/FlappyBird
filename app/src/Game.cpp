@@ -29,12 +29,12 @@ Game::Game()
     text.setFont(font);
 }
 
-void Game::MoveGround()
+void Game::MoveGround(float deltaTime)
 {
     if (grounds[0].second + 336 >= 0.0f)
     {
         for (int i = 0; i < grounds.size(); i++)
-            grounds[i].second -= 0.02;
+            grounds[i].second -= speed * deltaTime;
     }
     else
     {
@@ -62,15 +62,16 @@ void Game::DisplayEnvironment(sf::RenderWindow& w)
     }
 }
 
-void Game::MoveTubes()
+void Game::MoveTubes(float deltaTime)
 {
     if (tubes[0].second.first + 52 >= 0)
     {
         for (int i = 0; i < tubes.size(); i++) {
-            tubes[i].second.first -= 0.02;
+            tubes[i].second.first -= speed * deltaTime;
         }
     }
-    else{
+    else
+    {
         tubes.erase(tubes.begin());
         tubes.push_back(std::make_pair(std::make_pair(new sf::Sprite(tTubes), new sf::Sprite(tTubes)), std::make_pair(tubes[tubes.size() - 1].second.first + 300, rand() % 268 + 220)));
         tubes[tubes.size() - 1].first.first->setPosition(tubes[tubes.size() - 1].second.first, tubes[tubes.size() - 1].second.second);

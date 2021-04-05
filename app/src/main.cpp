@@ -1,6 +1,11 @@
 #include <main.h>
 
-int main()
+#ifdef _MSC_VER
+#include <windows.h>
+int WINAPI wWinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PWSTR pCmdLine, int nCmdShow)
+#else
+int main(int argc, char** argv)
+#endif
 {
     Bird player;
     Game game;
@@ -25,8 +30,8 @@ int main()
         player.Jump(event);
         if (timePassed >= totalTimeToPass){
             game.DisplayEnvironment(window);
-            game.MoveGround();
-            game.MoveTubes();
+            game.MoveGround(timePassed);
+            game.MoveTubes(timePassed);
             player.Move(timePassed);
             player.Collision(game.GetTubes());
             if (player.isDead())

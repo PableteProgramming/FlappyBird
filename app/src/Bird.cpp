@@ -49,7 +49,6 @@ void Bird::Move(double deltatime){
     }
     sprite.setRotation(rotation);
     sprite.setPosition(sprite.getPosition().x - sprite.getScale().x / 2, sprite.getPosition().y - sprite.getScale().y / 2);
-    std::cout << rotation << std::endl;
 }
 
 void Bird::Draw(sf::RenderWindow& window){

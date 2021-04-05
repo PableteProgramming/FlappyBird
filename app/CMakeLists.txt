@@ -21,21 +21,26 @@ target_link_libraries(
     ${LIBS}
 )
 
-#if(CMAKE_CXX_COMPILER_ID STREQUAL "MSVC")
-    #target_compile_options(
-        #${PROJECT_NAME} PUBLIC
-        #"/MTd"
-    #)
-    #target_link_options(
-        #${PROJECT_NAME} PUBLIC
-        #/SUBSYSTEM:WINDOWS
-   # )
-#elseif(CMAKE_CXX_COMPILER_ID STREQUAL "GNU")
-    #target_link_options(
-       # ${PROJECT_NAME} PUBLIC
-        #-mwindows
-   # )
-#endif()
+if(CMAKE_CXX_COMPILER_ID STREQUAL "MSVC")
+    target_compile_options(
+        ${PROJECT_NAME} PUBLIC
+        "/MTd"
+    )
+    target_link_options(
+        ${PROJECT_NAME} PUBLIC
+        /SUBSYSTEM:WINDOWS
+    )
+elseif(CMAKE_CXX_COMPILER_ID STREQUAL "GNU")
+    target_link_options(
+        ${PROJECT_NAME} PUBLIC
+        -mwindows
+    )
+    target_link_options(
+        ${PROJECT_NAME} PUBLIC
+        -static-libgcc
+        -static-libstdc++
+    )
+endif()
 
 add_custom_command(TARGET ${PROJECT_NAME} PRE_BUILD
     COMMAND ${CMAKE_COMMAND} -E copy_directory

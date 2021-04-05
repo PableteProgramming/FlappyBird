@@ -7,6 +7,7 @@ class Game
 {
 private:
     int score = 0;
+    float speed = 200;
     sf::Texture tBackground;
     sf::Sprite sBackground;
     // Ground variables
@@ -22,8 +23,8 @@ private:
 public:
     Game();
     void DisplayEnvironment(sf::RenderWindow&);
-    void MoveGround();
-    void MoveTubes();
+    void MoveGround(float);
+    void MoveTubes(float);
     void DisplayScore();
     std::vector<std::pair<std::pair<sf::Sprite*, sf::Sprite*>, std::pair<float, float>>> GetTubes() { return tubes; };
 };
